@@ -1,0 +1,26 @@
+[RESOURCES]
+rSegundoTrabajador
+rPreparador
+rPrimerTrabajador
+[VARIABLES]
+Pago.WaitTime
+Preparar orden.WaitTime
+Empaque de pedidos.NumberOut
+Preparar orden.NumberOut
+Preparar orden.NumberIn
+Preparar orden.VATime
+Pedido Empacado.NumberOut
+Pago.NumberOut
+Pago.NumberIn
+LLegada de Cleintes.NumberOut
+Ordnes.WaitTime
+Empaque de pedidos.WaitTime
+Ordnes.NumberIn
+Ir Cocina.NumberOut Orig
+Ir Cocina.NumberOut Dup
+Ordnes.NumberOut
+Empaque de pedidos.VATime
+Empaque de pedidos.NumberIn
+Ordnes.VATime
+Pago.VATime
+vConescutivo

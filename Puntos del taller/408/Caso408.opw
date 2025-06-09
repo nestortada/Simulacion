@@ -1,0 +1,20 @@
+[RESOURCES]
+rMesas
+rCaja
+[VARIABLES]
+Otro Restaurante.NumberOut
+Personas mayor a 0.NumberOut True
+Me voy de fila.NumberOut True
+Personas mayor a 0.NumberOut False
+Cierre del restaurante.NumberOut
+Personas
+Vcierre
+LLegada de grupo Cliente.NumberOut
+Caja.VATime
+Dispose 4.NumberOut
+Caja.WaitTime
+Dispose 3.NumberOut
+Quede LLeno.NumberOut
+Caja.NumberOut
+Caja.NumberIn
+Me voy de fila.NumberOut False

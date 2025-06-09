@@ -1,0 +1,12 @@
+[RESOURCES]
+rCajero
+rchef
+[VARIABLES]
+LLegada Entre Clientes.NumberOut
+Orden.NumberOut
+Pago.NumberOut
+Pago.NumberIn
+Orden.NumberIn
+Dispose 1.NumberOut
+Concinar Pedido.NumberIn
+Concinar Pedido.NumberOut

@@ -1,0 +1,28 @@
+[RESOURCES]
+rOrganizdor
+rSacador
+[VARIABLES]
+Sacar Articulos.VATime
+Organizar.WaitTime
+vCantidad
+Ir a la estación de electronico.NumberOut False
+LLegada de Caroos.NumberOut
+Ir a la estación de electronico.NumberOut True
+Dispose 2.NumberOut
+Organizar.NumberIn
+Desembalaje.NumberIn
+Desembalaje.NumberOut
+Separate 1.NumberOut Orig
+Dispose 1.NumberOut
+Sacar Articulos.NumberIn
+Desembalaje.VATime
+Sacar Articulos.WaitTime
+Organizar.NumberOut
+Sacar Articulos.NumberOut
+Desembalaje.WaitTime
+Organizar.VATime
+Es electronico.NumberOut True
+Separate 1.NumberOut Dup
+Es electronico.NumberOut False
+VSignal
+vConsecutivo

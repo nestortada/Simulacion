@@ -1,0 +1,24 @@
+[RESOURCES]
+rDesembalaje
+rInspector
+rTecnicos
+[VARIABLES]
+Descarte ?.NumberOut False
+Fallo ?.NumberOut True
+Fallo ?.NumberOut False
+Piezas malas.NumberOut
+Estacion de Reparacion.NumberIn
+Estacion de Reparacion.NumberOut
+Estacion de Reparacion.VATime
+Estacion de Reparacion.WaitTime
+LLegada de articulos.NumberOut
+Inspección.VATime
+Desembalaje.NumberIn
+Desembalaje.NumberOut
+Desembalaje.VATime
+Desembalaje.WaitTime
+Descarte ?.NumberOut True
+Piezas Bien.NumberOut
+Inspección.NumberOut
+Inspección.NumberIn
+Inspección.WaitTime

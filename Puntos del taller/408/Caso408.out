@@ -1,0 +1,2430 @@
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 1 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        49.666     (Insuf)    31.559     70.899        133    
+Caja.VATimePerEntity                        1.1287     (Insuf)     2.1989E-6 21.620        133    
+Caja.WaitTimePerEntity                      4.1402     (Insuf)    .00000     21.631        133    
+Caja.TotalTimePerEntity                     5.2689     (Insuf)     1.6860E-4 24.393        133    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        1.1038     (Insuf)    .00000     21.620        136    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        136    
+GrupoCleintes.WaitTime                      4.7118     (Insuf)    .00000     21.631        136    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        136    
+GrupoCleintes.OtherTime                     42.755     (Insuf)    .00000     60.317        136    
+GrupoCleintes.TotalTime                     48.571     (Insuf)    .00000     70.899        136    
+Caja.Queue.WaitingTime                      4.1402     (Insuf)    .00000     21.631        133    
+Ocupar Mesa.Queue.WaitingTime               .67794     (Insuf)    .00000     15.313        133    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           15.727     (Insuf)    .00000     39.000     .00000    
+rMesas.NumberBusy                           23.215     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .46431     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .35744     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .35744     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    1.3110     (Insuf)    .00000     18.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             .21468     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               133  Infinite
+NoVanComer                                        3  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          150.12    
+Caja Accum Wait Time                        550.65    
+Caja Number Out                             133.00    
+Caja Number In                              133.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      137.00    
+GrupoCleintes.NumberOut                     137.00    
+rMesas.NumberSeized                         223.00    
+rMesas.ScheduledUtilization                 .46431    
+rCaja.NumberSeized                          133.00    
+rCaja.ScheduledUtilization                  .35744    
+System.NumberOut                            136.00    
+
+Beginning replication 2 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 2 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        125.31     (Insuf)    36.371     181.94        161    
+Caja.VATimePerEntity                        2.1245     (Insuf)     2.2906E-6 67.443        161    
+Caja.WaitTimePerEntity                      77.478     (Insuf)    .00000     125.36        161    
+Caja.TotalTimePerEntity                     79.602     (Insuf)    .02772     129.05        161    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        2.0240     (Insuf)    .00000     67.443        169    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        169    
+GrupoCleintes.WaitTime                      76.373     (Insuf)    .00000     137.06        169    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        169    
+GrupoCleintes.OtherTime                     40.982     (Insuf)    .00000     60.619        169    
+GrupoCleintes.TotalTime                     119.37     (Insuf)    .00000     181.94        169    
+Caja.Queue.WaitingTime                      77.478     (Insuf)    .00000     125.36        161    
+Ocupar Mesa.Queue.WaitingTime               2.6899     (Insuf)    .00000     14.760        161    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           48.036     (Corr)     .00000     88.000     .00000    
+rMesas.NumberBusy                           26.789     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .53579     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .81442     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .81442     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    29.700     (Insuf)    .00000     75.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             1.0311     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               161  Infinite
+NoVanComer                                        8  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          342.05    
+Caja Accum Wait Time                        12474.    
+Caja Number Out                             161.00    
+Caja Number In                              161.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      170.00    
+GrupoCleintes.NumberOut                     170.00    
+rMesas.NumberSeized                         261.00    
+rMesas.ScheduledUtilization                 .53579    
+rCaja.NumberSeized                          161.00    
+rCaja.ScheduledUtilization                  .81442    
+System.NumberOut                            169.00    
+
+Beginning replication 3 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 3 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        52.269     (Insuf)    33.085     86.693        136    
+Caja.VATimePerEntity                        1.1359     (Insuf)     7.7352E-5 17.787        136    
+Caja.WaitTimePerEntity                      4.4668     (Insuf)    .00000     23.089        136    
+Caja.TotalTimePerEntity                     5.6028     (Insuf)     9.5619E-4 23.964        136    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        .88281     (Insuf)    .00000     17.787        175    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        175    
+GrupoCleintes.WaitTime                      5.7834     (Insuf)    .00000     23.553        175    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        175    
+GrupoCleintes.OtherTime                     33.954     (Insuf)    .00000     62.923        175    
+GrupoCleintes.TotalTime                     40.621     (Insuf)    .00000     86.693        175    
+Caja.Queue.WaitingTime                      4.4668     (Insuf)    .00000     23.089        136    
+Ocupar Mesa.Queue.WaitingTime               2.9751     (Insuf)    .00000     13.611        136    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           16.925     (Insuf)    .00000     45.000     .00000    
+rMesas.NumberBusy                           24.541     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .49083     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .36784     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .36784     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    1.4464     (Insuf)    .00000     10.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             .96337     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               136  Infinite
+NoVanComer                                       39  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          154.49    
+Caja Accum Wait Time                        607.49    
+Caja Number Out                             136.00    
+Caja Number In                              136.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      176.00    
+GrupoCleintes.NumberOut                     176.00    
+rMesas.NumberSeized                         236.00    
+rMesas.ScheduledUtilization                 .49083    
+rCaja.NumberSeized                          136.00    
+rCaja.ScheduledUtilization                  .36784    
+System.NumberOut                            175.00    
+
+Beginning replication 4 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 4 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        80.205     (Insuf)    32.684     165.75        163    
+Caja.VATimePerEntity                        1.7866     (Insuf)     5.6529E-5 20.178        163    
+Caja.WaitTimePerEntity                      31.662     (Insuf)    .00000     104.98        163    
+Caja.TotalTimePerEntity                     33.448     (Insuf)    .00343     105.59        163    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        1.5657     (Insuf)    .00000     20.178        186    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        186    
+GrupoCleintes.WaitTime                      30.940     (Insuf)    .00000     118.95        186    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        186    
+GrupoCleintes.OtherTime                     37.782     (Insuf)    .00000     56.644        186    
+GrupoCleintes.TotalTime                     70.287     (Insuf)    .00000     165.75        186    
+Caja.Queue.WaitingTime                      31.662     (Insuf)    .00000     104.98        163    
+Ocupar Mesa.Queue.WaitingTime               3.6435     (Insuf)    .00000     16.026        163    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           31.127     (Corr)     .00000     65.000     .00000    
+rMesas.NumberBusy                           28.733     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .57466     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .69340     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .69340     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    12.287     (Insuf)    .00000     41.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             1.4140     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               163  Infinite
+NoVanComer                                       23  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          291.22    
+Caja Accum Wait Time                        5160.9    
+Caja Number Out                             163.00    
+Caja Number In                              163.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      187.00    
+GrupoCleintes.NumberOut                     187.00    
+rMesas.NumberSeized                         280.00    
+rMesas.ScheduledUtilization                 .57466    
+rCaja.NumberSeized                          163.00    
+rCaja.ScheduledUtilization                  .69340    
+System.NumberOut                            186.00    
+
+Beginning replication 5 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 5 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        118.65     (Insuf)    34.567     216.43        164    
+Caja.VATimePerEntity                        2.3365     (Insuf)     3.4011E-6 38.885        164    
+Caja.WaitTimePerEntity                      72.183     (Insuf)    .00000     153.29        164    
+Caja.TotalTimePerEntity                     74.520     (Insuf)    .00175     157.48        164    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        2.0601     (Insuf)    .00000     38.885        186    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        186    
+GrupoCleintes.WaitTime                      66.255     (Insuf)    .00000     161.88        186    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        186    
+GrupoCleintes.OtherTime                     36.306     (Insuf)    .00000     58.814        186    
+GrupoCleintes.TotalTime                     104.62     (Insuf)    .00000     216.43        186    
+Caja.Queue.WaitingTime                      72.183     (Insuf)    .00000     153.29        164    
+Ocupar Mesa.Queue.WaitingTime               2.9595     (Insuf)    .00000     16.130        164    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           40.540     (Corr)     .00000     86.000     .00000    
+rMesas.NumberBusy                           24.403     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .48807     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .79833     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .79833     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    24.662     (Insuf)    .00000     72.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             1.0111     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               164  Infinite
+NoVanComer                                       22  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          383.19    
+Caja Accum Wait Time                        11838.    
+Caja Number Out                             164.00    
+Caja Number In                              164.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      187.00    
+GrupoCleintes.NumberOut                     187.00    
+rMesas.NumberSeized                         284.00    
+rMesas.ScheduledUtilization                 .48807    
+rCaja.NumberSeized                          164.00    
+rCaja.ScheduledUtilization                  .79833    
+System.NumberOut                            186.00    
+
+Beginning replication 6 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 6 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        79.543     (Insuf)    45.638     115.22        156    
+Caja.VATimePerEntity                        1.7579     (Insuf)     6.3732E-7 31.396        156    
+Caja.WaitTimePerEntity                      29.824     (Insuf)    .00000     47.114        156    
+Caja.TotalTimePerEntity                     31.582     (Insuf)    5.9587     48.720        156    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        1.4433     (Insuf)    .00000     31.396        190    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        190    
+GrupoCleintes.WaitTime                      28.521     (Insuf)    .00000     57.978        190    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        190    
+GrupoCleintes.OtherTime                     35.344     (Insuf)    .00000     59.795        190    
+GrupoCleintes.TotalTime                     65.309     (Insuf)    .00000     115.22        190    
+Caja.Queue.WaitingTime                      29.824     (Insuf)    .00000     47.114        156    
+Ocupar Mesa.Queue.WaitingTime               4.9131     (Insuf)    .00000     14.607        156    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           29.544     (Insuf)    .00000     62.000     .00000    
+rMesas.NumberBusy                           28.197     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .56395     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .65294     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .65294     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    11.077     (Insuf)    .00000     35.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             1.8248     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               156  Infinite
+NoVanComer                                       34  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          274.23    
+Caja Accum Wait Time                        4652.6    
+Caja Number Out                             156.00    
+Caja Number In                              156.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      191.00    
+GrupoCleintes.NumberOut                     191.00    
+rMesas.NumberSeized                         274.00    
+rMesas.ScheduledUtilization                 .56395    
+rCaja.NumberSeized                          156.00    
+rCaja.ScheduledUtilization                  .65294    
+System.NumberOut                            190.00    
+
+Beginning replication 7 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 7 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        60.446     (Insuf)    34.170     89.944        145    
+Caja.VATimePerEntity                        1.5878     (Insuf)     4.1360E-6 27.147        145    
+Caja.WaitTimePerEntity                      13.806     (Insuf)    .00000     36.928        145    
+Caja.TotalTimePerEntity                     15.394     (Insuf)    .00396     37.277        145    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        1.4300     (Insuf)    .00000     27.147        161    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        161    
+GrupoCleintes.WaitTime                      13.618     (Insuf)    .00000     40.464        161    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        161    
+GrupoCleintes.OtherTime                     39.391     (Insuf)    .00000     66.585        161    
+GrupoCleintes.TotalTime                     54.439     (Insuf)    .00000     89.944        161    
+Caja.Queue.WaitingTime                      13.806     (Insuf)    .00000     36.928        145    
+Ocupar Mesa.Queue.WaitingTime               1.3142     (Insuf)    .00000     13.609        145    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           20.868     (Insuf)    .00000     60.000     .00000    
+rMesas.NumberBusy                           24.208     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .48417     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .54819     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .54819     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    4.7666     (Insuf)    .00000     22.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             .45373     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               145  Infinite
+NoVanComer                                       16  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          230.24    
+Caja Accum Wait Time                        2001.9    
+Caja Number Out                             145.00    
+Caja Number In                              145.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      162.00    
+GrupoCleintes.NumberOut                     162.00    
+rMesas.NumberSeized                         232.00    
+rMesas.ScheduledUtilization                 .48417    
+rCaja.NumberSeized                          145.00    
+rCaja.ScheduledUtilization                  .54819    
+System.NumberOut                            161.00    
+
+Beginning replication 8 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 8 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        82.535     (Insuf)    33.143     119.78        134    
+Caja.VATimePerEntity                        2.0776     (Insuf)     1.1384E-5 32.309        134    
+Caja.WaitTimePerEntity                      36.593     (Insuf)    .00000     65.177        134    
+Caja.TotalTimePerEntity                     38.671     (Insuf)     5.8080E-4 66.100        134    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        2.0174     (Insuf)    .00000     32.309        138    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        138    
+GrupoCleintes.WaitTime                      36.388     (Insuf)    .00000     68.636        138    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        138    
+GrupoCleintes.OtherTime                     41.737     (Insuf)    .00000     60.101        138    
+GrupoCleintes.TotalTime                     80.143     (Insuf)    .00000     119.78        138    
+Caja.Queue.WaitingTime                      36.593     (Insuf)    .00000     65.177        134    
+Ocupar Mesa.Queue.WaitingTime               .88090     (Insuf)    .00000     13.904        134    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           26.332     (Insuf)    .00000     65.000     .00000    
+rMesas.NumberBusy                           23.284     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .46569     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .66288     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .66288     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    11.675     (Insuf)    .00000     40.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             .28105     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               134  Infinite
+NoVanComer                                        4  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          278.40    
+Caja Accum Wait Time                        4903.5    
+Caja Number Out                             134.00    
+Caja Number In                              134.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      139.00    
+GrupoCleintes.NumberOut                     139.00    
+rMesas.NumberSeized                         228.00    
+rMesas.ScheduledUtilization                 .46569    
+rCaja.NumberSeized                          134.00    
+rCaja.ScheduledUtilization                  .66288    
+System.NumberOut                            138.00    
+
+Beginning replication 9 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 9 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        54.327     (Insuf)    34.785     80.684        154    
+Caja.VATimePerEntity                        1.3515     (Insuf)     5.4108E-6 18.279        154    
+Caja.WaitTimePerEntity                      5.2509     (Insuf)    .00000     20.442        154    
+Caja.TotalTimePerEntity                     6.6024     (Insuf)    .00121     21.440        154    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        1.1189     (Insuf)    .00000     18.279        186    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        186    
+GrupoCleintes.WaitTime                      7.9278     (Insuf)    .00000     37.185        186    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        186    
+GrupoCleintes.OtherTime                     35.934     (Insuf)    .00000     57.604        186    
+GrupoCleintes.TotalTime                     44.980     (Insuf)    .00000     80.684        186    
+Caja.Queue.WaitingTime                      5.2509     (Insuf)    .00000     20.442        154    
+Ocupar Mesa.Queue.WaitingTime               4.3242     (Insuf)    .00000     17.839        154    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           19.920     (Insuf)    .00000     52.000     .00000    
+rMesas.NumberBusy                           27.459     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .54919     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .49555     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .49555     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    1.9253     (Insuf)    .00000     11.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             1.5855     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               154  Infinite
+NoVanComer                                       32  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          208.13    
+Caja Accum Wait Time                        808.64    
+Caja Number Out                             154.00    
+Caja Number In                              154.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      187.00    
+GrupoCleintes.NumberOut                     187.00    
+rMesas.NumberSeized                         265.00    
+rMesas.ScheduledUtilization                 .54919    
+rCaja.NumberSeized                          154.00    
+rCaja.ScheduledUtilization                  .49555    
+System.NumberOut                            186.00    
+
+Beginning replication 10 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 10 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        150.06     (Insuf)    37.188     197.40        153    
+Caja.VATimePerEntity                        2.1362     (Insuf)     9.6494E-6 59.464        153    
+Caja.WaitTimePerEntity                      102.44     (Insuf)    .00000     139.92        153    
+Caja.TotalTimePerEntity                     104.57     (Insuf)    .01949     140.75        153    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        2.0428     (Insuf)    .00000     59.464        160    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        160    
+GrupoCleintes.WaitTime                      99.694     (Insuf)    .00000     151.36        160    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        160    
+GrupoCleintes.OtherTime                     41.763     (Insuf)    .00000     57.227        160    
+GrupoCleintes.TotalTime                     143.50     (Insuf)    .00000     197.40        160    
+Caja.Queue.WaitingTime                      102.44     (Insuf)    .00000     139.92        153    
+Ocupar Mesa.Queue.WaitingTime               1.8152     (Insuf)    .00000     14.709        153    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           54.666     (Insuf)    .00000     112.00     .00000    
+rMesas.NumberBusy                           26.463     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .52927     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .77822     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .77822     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    37.317     (Insuf)    .00000     87.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             .66126     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               153  Infinite
+NoVanComer                                        7  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          326.85    
+Caja Accum Wait Time                        15673.    
+Caja Number Out                             153.00    
+Caja Number In                              153.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      161.00    
+GrupoCleintes.NumberOut                     161.00    
+rMesas.NumberSeized                         255.00    
+rMesas.ScheduledUtilization                 .52927    
+rCaja.NumberSeized                          153.00    
+rCaja.ScheduledUtilization                  .77822    
+System.NumberOut                            160.00    
+
+Beginning replication 11 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 11 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        57.395     (Insuf)    33.887     86.621        153    
+Caja.VATimePerEntity                        1.3471     (Insuf)     1.9782E-4 21.028        153    
+Caja.WaitTimePerEntity                      9.4219     (Insuf)    .00000     29.061        153    
+Caja.TotalTimePerEntity                     10.769     (Insuf)     2.5396E-4 30.373        153    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        1.1141     (Insuf)    .00000     21.028        185    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        185    
+GrupoCleintes.WaitTime                      10.843     (Insuf)    .00000     33.426        185    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        185    
+GrupoCleintes.OtherTime                     35.510     (Insuf)    .00000     60.451        185    
+GrupoCleintes.TotalTime                     47.467     (Insuf)    .00000     86.621        185    
+Caja.Queue.WaitingTime                      9.4219     (Insuf)    .00000     29.061        153    
+Ocupar Mesa.Queue.WaitingTime               3.6890     (Insuf)    .00000     20.549        153    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           20.908     (Insuf)    .00000     52.000     .00000    
+rMesas.NumberBusy                           26.690     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .53381     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .49076     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .49076     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    3.4322     (Insuf)    .00000     21.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             1.3438     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               153  Infinite
+NoVanComer                                       32  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          206.11    
+Caja Accum Wait Time                        1441.5    
+Caja Number Out                             153.00    
+Caja Number In                              153.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      186.00    
+GrupoCleintes.NumberOut                     186.00    
+rMesas.NumberSeized                         261.00    
+rMesas.ScheduledUtilization                 .53381    
+rCaja.NumberSeized                          153.00    
+rCaja.ScheduledUtilization                  .49076    
+System.NumberOut                            185.00    
+
+Beginning replication 12 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 12 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        99.308     (Insuf)    35.646     142.22        151    
+Caja.VATimePerEntity                        2.0616     (Insuf)     2.1290E-7 39.320        151    
+Caja.WaitTimePerEntity                      48.768     (Insuf)    .00000     79.843        151    
+Caja.TotalTimePerEntity                     50.830     (Insuf)    .07769     80.646        151    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        1.7011     (Insuf)    .00000     39.320        183    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        183    
+GrupoCleintes.WaitTime                      44.569     (Insuf)    .00000     86.280        183    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        183    
+GrupoCleintes.OtherTime                     35.672     (Insuf)    .00000     59.569        183    
+GrupoCleintes.TotalTime                     81.943     (Insuf)    .00000     142.22        183    
+Caja.Queue.WaitingTime                      48.768     (Insuf)    .00000     79.843        151    
+Ocupar Mesa.Queue.WaitingTime               5.2458     (Insuf)    .00000     18.924        151    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           35.703     (Insuf)    .00000     76.000     .00000    
+rMesas.NumberBusy                           27.247     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .54495     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .74122     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .74122     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    17.533     (Insuf)    .00000     42.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             1.8859     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               151  Infinite
+NoVanComer                                       32  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          311.31    
+Caja Accum Wait Time                        7364.0    
+Caja Number Out                             151.00    
+Caja Number In                              151.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      184.00    
+GrupoCleintes.NumberOut                     184.00    
+rMesas.NumberSeized                         264.00    
+rMesas.ScheduledUtilization                 .54495    
+rCaja.NumberSeized                          151.00    
+rCaja.ScheduledUtilization                  .74122    
+System.NumberOut                            183.00    
+
+Beginning replication 13 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 13 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        57.283     (Insuf)    37.831     81.174        155    
+Caja.VATimePerEntity                        1.4115     (Insuf)     1.8783E-6 18.076        155    
+Caja.WaitTimePerEntity                      9.0420     (Insuf)    .00000     28.419        155    
+Caja.TotalTimePerEntity                     10.453     (Insuf)     1.8783E-6 30.144        155    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        1.1637     (Insuf)    .00000     18.076        188    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        188    
+GrupoCleintes.WaitTime                      10.929     (Insuf)    .00000     32.978        188    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        188    
+GrupoCleintes.OtherTime                     35.134     (Insuf)    .00000     53.882        188    
+GrupoCleintes.TotalTime                     47.228     (Insuf)    .00000     81.174        188    
+Caja.Queue.WaitingTime                      9.0420     (Insuf)    .00000     28.419        155    
+Ocupar Mesa.Queue.WaitingTime               4.2146     (Insuf)    .00000     17.849        155    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           21.140     (Insuf)    .00000     53.000     .00000    
+rMesas.NumberBusy                           26.528     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .53058     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .52093     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .52093     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    3.3369     (Insuf)    .00000     19.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             1.5554     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               155  Infinite
+NoVanComer                                       33  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          218.79    
+Caja Accum Wait Time                        1401.5    
+Caja Number Out                             155.00    
+Caja Number In                              155.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      189.00    
+GrupoCleintes.NumberOut                     189.00    
+rMesas.NumberSeized                         260.00    
+rMesas.ScheduledUtilization                 .53058    
+rCaja.NumberSeized                          155.00    
+rCaja.ScheduledUtilization                  .52093    
+System.NumberOut                            188.00    
+
+Beginning replication 14 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 14 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        96.017     (Insuf)    39.604     137.83        156    
+Caja.VATimePerEntity                        1.8870     (Insuf)     4.5953E-6 18.181        156    
+Caja.WaitTimePerEntity                      49.215     (Insuf)    .00000     79.071        156    
+Caja.TotalTimePerEntity                     51.102     (Insuf)    2.0266     79.813        156    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        1.6086     (Insuf)    .00000     18.181        183    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        183    
+GrupoCleintes.WaitTime                      43.934     (Insuf)    .00000     84.094        183    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        183    
+GrupoCleintes.OtherTime                     36.308     (Insuf)    .00000     57.782        183    
+GrupoCleintes.TotalTime                     81.851     (Insuf)    .00000     137.83        183    
+Caja.Queue.WaitingTime                      49.215     (Insuf)    .00000     79.071        156    
+Ocupar Mesa.Queue.WaitingTime               2.3225     (Insuf)    .00000     18.825        156    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           35.663     (Insuf)    .00000     80.000     .00000    
+rMesas.NumberBusy                           26.654     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .53308     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .70091     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .70091     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    18.280     (Insuf)    .00000     50.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             .86267     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               156  Infinite
+NoVanComer                                       27  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          294.38    
+Caja Accum Wait Time                        7677.6    
+Caja Number Out                             156.00    
+Caja Number In                              156.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      184.00    
+GrupoCleintes.NumberOut                     184.00    
+rMesas.NumberSeized                         263.00    
+rMesas.ScheduledUtilization                 .53308    
+rCaja.NumberSeized                          156.00    
+rCaja.ScheduledUtilization                  .70091    
+System.NumberOut                            183.00    
+
+Beginning replication 15 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 15 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        57.402     (Insuf)    37.426     90.541        151    
+Caja.VATimePerEntity                        1.2829     (Insuf)     8.7307E-7 33.666        151    
+Caja.WaitTimePerEntity                      8.2841     (Insuf)    .00000     37.440        151    
+Caja.TotalTimePerEntity                     9.5670     (Insuf)     4.0939E-4 37.491        151    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        1.1463     (Insuf)    .00000     33.666        169    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        169    
+GrupoCleintes.WaitTime                      11.897     (Insuf)    .00000     46.430        169    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        169    
+GrupoCleintes.OtherTime                     38.244     (Insuf)    .00000     54.943        169    
+GrupoCleintes.TotalTime                     51.288     (Insuf)    .00000     90.541        169    
+Caja.Queue.WaitingTime                      8.2841     (Insuf)    .00000     37.440        151    
+Ocupar Mesa.Queue.WaitingTime               5.0315     (Insuf)    .00000     13.208        151    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           20.637     (Insuf)    .00000     45.000     .00000    
+rMesas.NumberBusy                           26.606     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .53214     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .46126     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .46126     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    2.9783     (Insuf)    .00000     22.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             1.8089     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               151  Infinite
+NoVanComer                                       18  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          193.72    
+Caja Accum Wait Time                        1250.9    
+Caja Number Out                             151.00    
+Caja Number In                              151.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      170.00    
+GrupoCleintes.NumberOut                     170.00    
+rMesas.NumberSeized                         261.00    
+rMesas.ScheduledUtilization                 .53214    
+rCaja.NumberSeized                          151.00    
+rCaja.ScheduledUtilization                  .46126    
+System.NumberOut                            169.00    
+
+Beginning replication 16 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 16 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        57.340     (Insuf)    32.846     105.91        144    
+Caja.VATimePerEntity                        1.6006     (Insuf)     1.1419E-5 27.026        144    
+Caja.WaitTimePerEntity                      11.798     (Insuf)    .00000     58.223        144    
+Caja.TotalTimePerEntity                     13.399     (Insuf)     2.9458E-5 58.468        144    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        1.5574     (Insuf)    .00000     27.026        148    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        148    
+GrupoCleintes.WaitTime                      12.961     (Insuf)    .00000     61.389        148    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        148    
+GrupoCleintes.OtherTime                     41.272     (Insuf)    .00000     62.280        148    
+GrupoCleintes.TotalTime                     55.791     (Insuf)    .00000     105.91        148    
+Caja.Queue.WaitingTime                      11.798     (Insuf)    .00000     58.223        144    
+Ocupar Mesa.Queue.WaitingTime               1.5221     (Insuf)    .00000     14.076        144    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           19.659     (Insuf)    .00000     40.000     .00000    
+rMesas.NumberBusy                           24.243     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .48487     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .54880     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .54880     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    4.0453     (Insuf)    .00000     19.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             .52189     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               144  Infinite
+NoVanComer                                        4  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          230.49    
+Caja Accum Wait Time                        1699.0    
+Caja Number Out                             144.00    
+Caja Number In                              144.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      149.00    
+GrupoCleintes.NumberOut                     149.00    
+rMesas.NumberSeized                         241.00    
+rMesas.ScheduledUtilization                 .48487    
+rCaja.NumberSeized                          144.00    
+rCaja.ScheduledUtilization                  .54880    
+System.NumberOut                            148.00    
+
+Beginning replication 17 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 17 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        49.985     (Insuf)    34.635     71.285        141    
+Caja.VATimePerEntity                        1.2950     (Insuf)     1.5977E-5 20.462        141    
+Caja.WaitTimePerEntity                      5.3375     (Insuf)    .00000     21.840        141    
+Caja.TotalTimePerEntity                     6.6326     (Insuf)     8.4079E-5 23.649        141    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        1.2338     (Insuf)    .00000     20.462        148    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        148    
+GrupoCleintes.WaitTime                      5.9147     (Insuf)    .00000     23.760        148    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        148    
+GrupoCleintes.OtherTime                     40.472     (Insuf)    .00000     59.608        148    
+GrupoCleintes.TotalTime                     47.621     (Insuf)    .00000     71.285        148    
+Caja.Queue.WaitingTime                      5.3375     (Insuf)    .00000     21.840        141    
+Ocupar Mesa.Queue.WaitingTime               .87080     (Insuf)    .00000     16.297        141    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           16.780     (Insuf)    .00000     42.000     .00000    
+rMesas.NumberBusy                           23.797     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .47595     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .43478     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .43478     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    1.7919     (Insuf)    .00000     14.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             .29234     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               141  Infinite
+NoVanComer                                        7  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          182.60    
+Caja Accum Wait Time                        752.60    
+Caja Number Out                             141.00    
+Caja Number In                              141.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      149.00    
+GrupoCleintes.NumberOut                     149.00    
+rMesas.NumberSeized                         234.00    
+rMesas.ScheduledUtilization                 .47595    
+rCaja.NumberSeized                          141.00    
+rCaja.ScheduledUtilization                  .43478    
+System.NumberOut                            148.00    
+
+Beginning replication 18 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 18 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        52.859     (Insuf)    31.330     82.667        156    
+Caja.VATimePerEntity                        1.2868     (Insuf)     1.8462E-6 34.853        156    
+Caja.WaitTimePerEntity                      6.2832     (Insuf)    .00000     37.912        156    
+Caja.TotalTimePerEntity                     7.5701     (Insuf)     5.7152E-5 38.675        156    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        1.1809     (Insuf)    .00000     34.853        170    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        170    
+GrupoCleintes.WaitTime                      8.4635     (Insuf)    .00000     43.795        170    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        170    
+GrupoCleintes.OtherTime                     38.862     (Insuf)    .00000     59.003        170    
+GrupoCleintes.TotalTime                     48.506     (Insuf)    .00000     82.667        170    
+Caja.Queue.WaitingTime                      6.2832     (Insuf)    .00000     37.912        156    
+Ocupar Mesa.Queue.WaitingTime               2.9398     (Insuf)    .00000     18.854        156    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           19.633     (Insuf)    .00000     44.000     .00000    
+rMesas.NumberBusy                           27.479     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .54959     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .47798     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .47798     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    2.3337     (Insuf)    .00000     14.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             1.0919     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               156  Infinite
+NoVanComer                                       14  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          200.75    
+Caja Accum Wait Time                        980.19    
+Caja Number Out                             156.00    
+Caja Number In                              156.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      171.00    
+GrupoCleintes.NumberOut                     171.00    
+rMesas.NumberSeized                         271.00    
+rMesas.ScheduledUtilization                 .54959    
+rCaja.NumberSeized                          156.00    
+rCaja.ScheduledUtilization                  .47798    
+System.NumberOut                            170.00    
+
+Beginning replication 19 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 19 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        58.478     (Insuf)    34.412     99.048        128    
+Caja.VATimePerEntity                        1.3123     (Insuf)     1.4640E-7 23.948        128    
+Caja.WaitTimePerEntity                      11.303     (Insuf)    .00000     33.971        128    
+Caja.TotalTimePerEntity                     12.615     (Insuf)     1.4640E-7 36.747        128    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        1.1273     (Insuf)    .00000     23.948        149    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        149    
+GrupoCleintes.WaitTime                      12.001     (Insuf)    .00000     44.256        149    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        149    
+GrupoCleintes.OtherTime                     37.107     (Insuf)    .00000     58.698        149    
+GrupoCleintes.TotalTime                     50.236     (Insuf)    .00000     99.048        149    
+Caja.Queue.WaitingTime                      11.303     (Insuf)    .00000     33.971        128    
+Ocupar Mesa.Queue.WaitingTime               2.6675     (Insuf)    .00000     21.277        128    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           17.822     (Insuf)    .00000     45.000     .00000    
+rMesas.NumberBusy                           22.313     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .44627     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .39995     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .39995     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    3.4448     (Insuf)    .00000     26.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             .81295     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               128  Infinite
+NoVanComer                                       21  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          167.97    
+Caja Accum Wait Time                        1446.8    
+Caja Number Out                             128.00    
+Caja Number In                              128.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      150.00    
+GrupoCleintes.NumberOut                     150.00    
+rMesas.NumberSeized                         216.00    
+rMesas.ScheduledUtilization                 .44627    
+rCaja.NumberSeized                          128.00    
+rCaja.ScheduledUtilization                  .39995    
+System.NumberOut                            149.00    
+
+Beginning replication 20 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 20 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        80.103     (Insuf)    36.625     125.43        133    
+Caja.VATimePerEntity                        1.6789     (Insuf)     1.1820E-5 25.534        133    
+Caja.WaitTimePerEntity                      32.618     (Insuf)    .00000     67.506        133    
+Caja.TotalTimePerEntity                     34.297     (Insuf)     1.1820E-5 73.349        133    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        1.4986     (Insuf)    .00000     25.534        149    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        149    
+GrupoCleintes.WaitTime                      31.310     (Insuf)    .00000     76.392        149    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        149    
+GrupoCleintes.OtherTime                     38.692     (Insuf)    .00000     57.065        149    
+GrupoCleintes.TotalTime                     71.502     (Insuf)    .00000     125.43        149    
+Caja.Queue.WaitingTime                      32.618     (Insuf)    .00000     67.506        133    
+Ocupar Mesa.Queue.WaitingTime               2.4586     (Insuf)    .00000     16.267        133    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           25.366     (Insuf)    .00000     64.000     .00000    
+rMesas.NumberBusy                           23.543     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .47088     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .53165     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .53165     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    10.329     (Insuf)    .00000     44.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             .77858     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               133  Infinite
+NoVanComer                                       16  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          223.29    
+Caja Accum Wait Time                        4338.2    
+Caja Number Out                             133.00    
+Caja Number In                              133.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      150.00    
+GrupoCleintes.NumberOut                     150.00    
+rMesas.NumberSeized                         228.00    
+rMesas.ScheduledUtilization                 .47088    
+rCaja.NumberSeized                          133.00    
+rCaja.ScheduledUtilization                  .53165    
+System.NumberOut                            149.00    
+
+Beginning replication 21 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 21 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        64.633     (Insuf)    34.226     117.58        150    
+Caja.VATimePerEntity                        1.4423     (Insuf)     4.0504E-5 48.549        150    
+Caja.WaitTimePerEntity                      17.451     (Insuf)    .00000     67.728        150    
+Caja.TotalTimePerEntity                     18.893     (Insuf)     6.1982E-4 67.951        150    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        1.1508     (Insuf)    .00000     48.549        188    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        188    
+GrupoCleintes.WaitTime                      16.847     (Insuf)    .00000     67.728        188    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        188    
+GrupoCleintes.OtherTime                     33.571     (Insuf)    .00000     58.397        188    
+GrupoCleintes.TotalTime                     51.569     (Insuf)    .00000     117.58        188    
+Caja.Queue.WaitingTime                      17.451     (Insuf)    .00000     67.728        150    
+Ocupar Mesa.Queue.WaitingTime               3.6636     (Insuf)    .00000     21.319        150    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           23.083     (Insuf)    .00000     61.000     .00000    
+rMesas.NumberBusy                           26.885     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .53772     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .51512     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .51512     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    6.2326     (Insuf)    .00000     38.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             1.3084     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               150  Infinite
+NoVanComer                                       38  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          216.35    
+Caja Accum Wait Time                        2617.7    
+Caja Number Out                             150.00    
+Caja Number In                              150.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      189.00    
+GrupoCleintes.NumberOut                     189.00    
+rMesas.NumberSeized                         268.00    
+rMesas.ScheduledUtilization                 .53772    
+rCaja.NumberSeized                          150.00    
+rCaja.ScheduledUtilization                  .51512    
+System.NumberOut                            188.00    
+
+Beginning replication 22 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 22 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        59.683     (Insuf)    31.762     108.31        146    
+Caja.VATimePerEntity                        1.8030     (Insuf)     5.0852E-5 43.427        146    
+Caja.WaitTimePerEntity                      13.376     (Insuf)    .00000     54.527        146    
+Caja.TotalTimePerEntity                     15.179     (Insuf)    .00237     56.827        146    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        1.6556     (Insuf)    .00000     43.427        159    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        159    
+GrupoCleintes.WaitTime                      13.833     (Insuf)    .00000     54.527        159    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        159    
+GrupoCleintes.OtherTime                     39.315     (Insuf)    .00000     55.287        159    
+GrupoCleintes.TotalTime                     54.803     (Insuf)    .00000     108.31        159    
+Caja.Queue.WaitingTime                      13.376     (Insuf)    .00000     54.527        146    
+Ocupar Mesa.Queue.WaitingTime               1.6881     (Insuf)    .00000     14.510        146    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           20.747     (Insuf)    .00000     46.000     .00000    
+rMesas.NumberBusy                           25.335     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .50670     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .62677     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .62677     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    4.6499     (Insuf)    .00000     18.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             .58684     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               146  Infinite
+NoVanComer                                       13  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          263.24    
+Caja Accum Wait Time                        1952.9    
+Caja Number Out                             146.00    
+Caja Number In                              146.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      160.00    
+GrupoCleintes.NumberOut                     160.00    
+rMesas.NumberSeized                         250.00    
+rMesas.ScheduledUtilization                 .50670    
+rCaja.NumberSeized                          146.00    
+rCaja.ScheduledUtilization                  .62677    
+System.NumberOut                            159.00    
+
+Beginning replication 23 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 23 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        53.191     (Insuf)    34.978     95.918        162    
+Caja.VATimePerEntity                        1.2527     (Insuf)     1.0850E-5 40.666        162    
+Caja.WaitTimePerEntity                      4.4799     (Insuf)    .00000     38.683        162    
+Caja.TotalTimePerEntity                     5.7327     (Insuf)     7.3251E-5 40.666        162    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        1.0969     (Insuf)    .00000     40.666        185    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        185    
+GrupoCleintes.WaitTime                      7.8972     (Insuf)    .00000     50.030        185    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        185    
+GrupoCleintes.OtherTime                     37.584     (Insuf)    .00000     55.207        185    
+GrupoCleintes.TotalTime                     46.578     (Insuf)    .00000     95.918        185    
+Caja.Queue.WaitingTime                      4.4799     (Insuf)    .00000     38.683        162    
+Ocupar Mesa.Queue.WaitingTime               4.5384     (Insuf)    .00000     17.867        162    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           20.516     (Corr)     .00000     47.000     .00000    
+rMesas.NumberBusy                           27.399     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .54798     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .48320     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .48320     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    1.7279     (Insuf)    .00000     10.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             1.7505     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               162  Infinite
+NoVanComer                                       23  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          202.94    
+Caja Accum Wait Time                        725.75    
+Caja Number Out                             162.00    
+Caja Number In                              162.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      186.00    
+GrupoCleintes.NumberOut                     186.00    
+rMesas.NumberSeized                         268.00    
+rMesas.ScheduledUtilization                 .54798    
+rCaja.NumberSeized                          162.00    
+rCaja.ScheduledUtilization                  .48320    
+System.NumberOut                            185.00    
+
+Beginning replication 24 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 24 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        64.026     (Insuf)    34.065     103.62        131    
+Caja.VATimePerEntity                        1.8455     (Insuf)     6.0031E-7 29.495        131    
+Caja.WaitTimePerEntity                      19.331     (Insuf)    .00000     55.289        131    
+Caja.TotalTimePerEntity                     21.176     (Insuf)    .00100     57.386        131    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        1.8455     (Insuf)     6.0031E-7 29.495        131    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        131    
+GrupoCleintes.WaitTime                      19.705     (Insuf)    .00000     55.289        131    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        131    
+GrupoCleintes.OtherTime                     42.475     (Insuf)    31.620     58.290        131    
+GrupoCleintes.TotalTime                     64.026     (Insuf)    34.065     103.62        131    
+Caja.Queue.WaitingTime                      19.331     (Insuf)    .00000     55.289        131    
+Ocupar Mesa.Queue.WaitingTime               .37400     (Insuf)    .00000     7.4409        131    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           19.970     (Insuf)    .00000     40.000     .00000    
+rMesas.NumberBusy                           22.950     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .45900     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .57565     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .57565     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    6.0295     (Insuf)    .00000     25.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             .11665     (Insuf)    .00000     6.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               131  Infinite
+NoVanComer                                        0  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          241.77    
+Caja Accum Wait Time                        2532.3    
+Caja Number Out                             131.00    
+Caja Number In                              131.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      132.00    
+GrupoCleintes.NumberOut                     132.00    
+rMesas.NumberSeized                         226.00    
+rMesas.ScheduledUtilization                 .45900    
+rCaja.NumberSeized                          131.00    
+rCaja.ScheduledUtilization                  .57565    
+System.NumberOut                            131.00    
+
+Beginning replication 25 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 25 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        60.460     (Insuf)    34.805     92.962        140    
+Caja.VATimePerEntity                        1.5010     (Insuf)     2.0060E-5 41.609        140    
+Caja.WaitTimePerEntity                      14.810     (Insuf)    .00000     41.162        140    
+Caja.TotalTimePerEntity                     16.311     (Insuf)     9.1190E-4 41.744        140    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        1.4393     (Insuf)    .00000     41.609        146    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        146    
+GrupoCleintes.WaitTime                      15.750     (Insuf)    .00000     41.162        146    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        146    
+GrupoCleintes.OtherTime                     40.785     (Insuf)    .00000     57.521        146    
+GrupoCleintes.TotalTime                     57.975     (Insuf)    .00000     92.962        146    
+Caja.Queue.WaitingTime                      14.810     (Insuf)    .00000     41.162        140    
+Ocupar Mesa.Queue.WaitingTime               1.6144     (Insuf)    .00000     10.599        140    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           20.153     (Insuf)    .00000     56.000     .00000    
+rMesas.NumberBusy                           23.267     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .46534     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .50034     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .50034     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    4.9369     (Insuf)    .00000     25.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             .53814     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               140  Infinite
+NoVanComer                                        6  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          210.14    
+Caja Accum Wait Time                        2073.5    
+Caja Number Out                             140.00    
+Caja Number In                              140.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      147.00    
+GrupoCleintes.NumberOut                     147.00    
+rMesas.NumberSeized                         230.00    
+rMesas.ScheduledUtilization                 .46534    
+rCaja.NumberSeized                          140.00    
+rCaja.ScheduledUtilization                  .50034    
+System.NumberOut                            146.00    
+
+Beginning replication 26 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 26 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        58.830     (Insuf)    35.025     88.063        153    
+Caja.VATimePerEntity                        1.4285     (Insuf)     2.9429E-5 23.753        153    
+Caja.WaitTimePerEntity                      11.752     (Insuf)    .00000     37.121        153    
+Caja.TotalTimePerEntity                     13.181     (Insuf)     1.1277E-4 37.441        153    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        1.2075     (Insuf)    .00000     23.753        181    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        181    
+GrupoCleintes.WaitTime                      12.341     (Insuf)    .00000     37.121        181    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        181    
+GrupoCleintes.OtherTime                     36.180     (Insuf)    .00000     61.485        181    
+GrupoCleintes.TotalTime                     49.729     (Insuf)    .00000     88.063        181    
+Caja.Queue.WaitingTime                      11.752     (Insuf)    .00000     37.121        153    
+Ocupar Mesa.Queue.WaitingTime               2.8475     (Insuf)    .00000     17.661        153    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           21.431     (Insuf)    .00000     51.000     .00000    
+rMesas.NumberBusy                           27.086     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .54172     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .52039     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .52039     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    4.2814     (Insuf)    .00000     23.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             1.0373     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               153  Infinite
+NoVanComer                                       28  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          218.56    
+Caja Accum Wait Time                        1798.2    
+Caja Number Out                             153.00    
+Caja Number In                              153.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      182.00    
+GrupoCleintes.NumberOut                     182.00    
+rMesas.NumberSeized                         265.00    
+rMesas.ScheduledUtilization                 .54172    
+rCaja.NumberSeized                          153.00    
+rCaja.ScheduledUtilization                  .52039    
+System.NumberOut                            181.00    
+
+Beginning replication 27 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 27 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        53.479     (Insuf)    35.200     89.353        139    
+Caja.VATimePerEntity                        1.6867     (Insuf)     1.2807E-7 23.258        139    
+Caja.WaitTimePerEntity                      8.9173     (Insuf)    .00000     31.266        139    
+Caja.TotalTimePerEntity                     10.604     (Insuf)     7.2308E-4 37.203        139    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        1.6867     (Insuf)     1.2807E-7 23.258        139    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        139    
+GrupoCleintes.WaitTime                      9.0712     (Insuf)    .00000     33.975        139    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        139    
+GrupoCleintes.OtherTime                     42.721     (Insuf)    32.653     59.818        139    
+GrupoCleintes.TotalTime                     53.479     (Insuf)    35.200     89.353        139    
+Caja.Queue.WaitingTime                      8.9173     (Insuf)    .00000     31.266        139    
+Ocupar Mesa.Queue.WaitingTime               .15395     (Insuf)    .00000     4.6180        139    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           17.699     (Insuf)    .00000     40.000     .00000    
+rMesas.NumberBusy                           24.013     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .48026     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .55823     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .55823     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    2.9512     (Insuf)    .00000     15.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             .05095     (Insuf)    .00000     4.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               139  Infinite
+NoVanComer                                        0  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          234.45    
+Caja Accum Wait Time                        1239.5    
+Caja Number Out                             139.00    
+Caja Number In                              139.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      140.00    
+GrupoCleintes.NumberOut                     140.00    
+rMesas.NumberSeized                         237.00    
+rMesas.ScheduledUtilization                 .48026    
+rCaja.NumberSeized                          139.00    
+rCaja.ScheduledUtilization                  .55823    
+System.NumberOut                            139.00    
+
+Beginning replication 28 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 28 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        62.785     (Insuf)    37.810     99.009        164    
+Caja.VATimePerEntity                        1.4974     (Insuf)     2.4070E-6 20.535        164    
+Caja.WaitTimePerEntity                      13.568     (Insuf)    .00000     32.387        164    
+Caja.TotalTimePerEntity                     15.065     (Insuf)     2.0866E-4 32.967        164    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        1.1921     (Insuf)    .00000     20.535        206    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        206    
+GrupoCleintes.WaitTime                      14.597     (Insuf)    .00000     42.172        206    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        206    
+GrupoCleintes.OtherTime                     34.194     (Insuf)    .00000     65.846        206    
+GrupoCleintes.TotalTime                     49.984     (Insuf)    .00000     99.009        206    
+Caja.Queue.WaitingTime                      13.568     (Insuf)    .00000     32.387        164    
+Ocupar Mesa.Queue.WaitingTime               4.7678     (Insuf)    .00000     16.655        164    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           24.516     (Corr)     .00000     61.000     .00000    
+rMesas.NumberBusy                           27.886     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .55774     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .58471     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .58471     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    5.2981     (Insuf)    .00000     23.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             1.8617     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               164  Infinite
+NoVanComer                                       42  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          245.57    
+Caja Accum Wait Time                        2225.2    
+Caja Number Out                             164.00    
+Caja Number In                              164.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      207.00    
+GrupoCleintes.NumberOut                     207.00    
+rMesas.NumberSeized                         273.00    
+rMesas.ScheduledUtilization                 .55774    
+rCaja.NumberSeized                          164.00    
+rCaja.ScheduledUtilization                  .58471    
+System.NumberOut                            206.00    
+
+Beginning replication 29 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 29 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        95.067     (Insuf)    35.024     150.23        159    
+Caja.VATimePerEntity                        1.9930     (Insuf)     2.2638E-4 33.205        159    
+Caja.WaitTimePerEntity                      45.915     (Insuf)    .00000     87.122        159    
+Caja.TotalTimePerEntity                     47.908     (Insuf)    .33672     88.815        159    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        1.6946     (Insuf)    .00000     33.205        187    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        187    
+GrupoCleintes.WaitTime                      42.484     (Insuf)    .00000     94.687        187    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        187    
+GrupoCleintes.OtherTime                     36.653     (Insuf)    .00000     58.432        187    
+GrupoCleintes.TotalTime                     80.832     (Insuf)    .00000     150.23        187    
+Caja.Queue.WaitingTime                      45.915     (Insuf)    .00000     87.122        159    
+Ocupar Mesa.Queue.WaitingTime               4.0505     (Insuf)    .00000     17.276        159    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           35.989     (Insuf)    .00000     68.000     .00000    
+rMesas.NumberBusy                           27.418     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .54836     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .75451     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .75451     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    17.382     (Insuf)    .00000     48.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             1.5334     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               159  Infinite
+NoVanComer                                       28  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          316.89    
+Caja Accum Wait Time                        7300.6    
+Caja Number Out                             159.00    
+Caja Number In                              159.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      188.00    
+GrupoCleintes.NumberOut                     188.00    
+rMesas.NumberSeized                         268.00    
+rMesas.ScheduledUtilization                 .54836    
+rCaja.NumberSeized                          159.00    
+rCaja.ScheduledUtilization                  .75451    
+System.NumberOut                            187.00    
+
+Beginning replication 30 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 30 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 420.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TiempoSistemaCleinte                        65.297     (Insuf)    35.669     99.941        166    
+Caja.VATimePerEntity                        1.4744     (Insuf)     6.0096E-6 22.506        166    
+Caja.WaitTimePerEntity                      18.294     (Insuf)    .00000     45.547        166    
+Caja.TotalTimePerEntity                     19.769     (Insuf)     6.0096E-6 45.601        166    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+GrupoCleintes.VATime                        1.4147     (Insuf)    .00000     22.506        173    
+GrupoCleintes.NVATime                       .00000     (Insuf)    .00000     .00000        173    
+GrupoCleintes.WaitTime                      19.537     (Insuf)    .00000     45.547        173    
+GrupoCleintes.TranTime                      .00000     (Insuf)    .00000     .00000        173    
+GrupoCleintes.OtherTime                     41.703     (Insuf)    .00000     62.882        173    
+GrupoCleintes.TotalTime                     62.655     (Insuf)    .00000     99.941        173    
+Caja.Queue.WaitingTime                      18.294     (Insuf)    .00000     45.547        166    
+Ocupar Mesa.Queue.WaitingTime               2.0666     (Insuf)    .00000     13.701        166    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+GrupoCleintes.WIP                           25.808     (Corr)     .00000     54.000     .00000    
+rMesas.NumberBusy                           29.177     (Insuf)    .00000     50.000     .00000    
+rMesas.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+rMesas.Utilization                          .58356     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberBusy                            .58275     (Insuf)    .00000     1.0000     .00000    
+rCaja.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rCaja.Utilization                           .58275     (Insuf)    .00000     1.0000     .00000    
+Caja.Queue.NumberInQueue                    7.2307     (Insuf)    .00000     24.000     .00000    
+Ocupar Mesa.Queue.NumberInQueue             .81682     (Insuf)    .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ClientesAtendidos                               166  Infinite
+NoVanComer                                        7  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Time                          244.75    
+Caja Accum Wait Time                        3036.9    
+Caja Number Out                             166.00    
+Caja Number In                              166.00    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+GrupoCleintes.NumberIn                      174.00    
+GrupoCleintes.NumberOut                     174.00    
+rMesas.NumberSeized                         284.00    
+rMesas.ScheduledUtilization                 .58356    
+rCaja.NumberSeized                          166.00    
+rCaja.ScheduledUtilization                  .58275    
+System.NumberOut                            173.00    
+
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                 Output Summary for 30 Replications
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Caja Accum VA Time                          242.10     21.040     150.12     383.19     30
+Caja Accum Wait Time                        3750.8     1446.4     550.65     15673.     30
+Caja Number Out                             149.23     4.1468     128.00     166.00     30
+Caja Number In                              149.23     4.1468     128.00     166.00     30
+Entity 1.NumberIn                           1.0000     .00000     1.0000     1.0000     30
+Entity 1.NumberOut                          1.0000     .00000     1.0000     1.0000     30
+GrupoCleintes.NumberIn                      169.46     7.4883     132.00     207.00     30
+GrupoCleintes.NumberOut                     169.46     7.4883     132.00     207.00     30
+rMesas.NumberSeized                         253.53     7.4393     216.00     284.00     30
+rMesas.ScheduledUtilization                 .51588     .01458     .44627     .58356     30
+rCaja.NumberSeized                          149.23     4.1468     128.00     166.00     30
+rCaja.ScheduledUtilization                  .57264     .04692     .35744     .81442     30
+System.NumberOut                            168.46     7.4883     131.00     206.00     30
+
+Simulation run time: 0.07 minutes.
+Simulation run complete.

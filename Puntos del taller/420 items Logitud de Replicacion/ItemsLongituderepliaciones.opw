@@ -1,0 +1,13 @@
+[RESOURCES]
+rFresadora
+rTaladro
+[VARIABLES]
+Llegada de Lotes de items.NumberOut
+Van al taladro.NumberOut True
+Fresadora.NumberIn
+Van al taladro.NumberOut False
+Taladro.NumberIn
+Dispose 1.NumberOut
+vWIP
+Fresadora.NumberOut
+Taladro.NumberOut

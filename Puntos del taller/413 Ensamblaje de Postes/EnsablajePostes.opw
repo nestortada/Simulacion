@@ -1,0 +1,51 @@
+[RESOURCES]
+rCortadora
+rRetrabajador
+rDobladora
+rPulidora
+rCableador
+rAgua
+rInspector
+rSoldadora
+[VARIABLES]
+Retrabajo.NumberIn
+Cableado.NumberOut
+Pulidora.WaitTime
+vid
+Soldador.WaitTime
+Retrabajo.VATime
+Cortador de Agua.NumberIn
+Cortador de Agua.NumberOut
+Legada Postes.NumberOut
+Cableado.WaitTime
+Core.VATime
+Doblado.NumberIn
+Inspeccion.NumberIn
+Inspeccion.VATime
+Retrabajo.WaitTime
+Cableado.VATime
+Pulidora.VATime
+Inspeccion.WaitTime
+Doblado.NumberOut
+Soldador.NumberIn
+Doblado.WaitTime
+Dispose 1.NumberOut
+Soldador.NumberOut
+Soldador.VATime
+Core.WaitTime
+Core.NumberIn
+Cortador de Agua.WaitTime
+Cortador de Agua.VATime
+Retrabajo.NumberOut
+Core.NumberOut
+Doblado.VATime
+Inspeccion.NumberOut
+Probabilidad que falle re.NumberOut True
+Probabilidad que falle.NumberOut False
+Probabilidad que falle.NumberOut True
+Pulidora.NumberOut
+Probabilidad que falle re.NumberOut False
+Pulidora.NumberIn
+Cableado.NumberIn
+Separar Base.NumberOut Dup
+Separar Base.NumberOut Orig

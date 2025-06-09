@@ -1,0 +1,765 @@
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 1 of 13
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sistema                                     99.707     (Insuf)    .15216     223.48         45    
+Items.VATime                                19.786     (Insuf)    .15216     55.262         45    
+Items.NVATime                               .00000     (Insuf)    .00000     .00000         45    
+Items.WaitTime                              79.920     (Insuf)    .00000     192.52         45    
+Items.TranTime                              .00000     (Insuf)    .00000     .00000         45    
+Items.OtherTime                             .00000     (Insuf)    .00000     .00000         45    
+Items.TotalTime                             99.707     (Insuf)    .15216     223.48         45    
+Fresadora.Queue.WaitingTime                 70.910     (Insuf)    .00000     176.49         47    
+Taladro.Queue.WaitingTime                   19.976     (Insuf)    .00000     52.832         16    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+TrabajadoresWip                             9.6117     (Insuf)    .00000     26.000     5.0000    
+Items.WIP                                   9.6117     (Insuf)    .00000     26.000     5.0000    
+rFresadora.NumberBusy                       1.5708     (Insuf)    .00000     2.0000     2.0000    
+rFresadora.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rFresadora.Utilization                      .78540     (Insuf)    .00000     1.0000     1.0000    
+rTaladro.NumberBusy                         .39554     (Insuf)    .00000     1.0000     1.0000    
+rTaladro.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rTaladro.Utilization                        .39554     (Insuf)    .00000     1.0000     1.0000    
+Fresadora.Queue.NumberInQueue               6.9795     (Insuf)    .00000     21.000     2.0000    
+Taladro.Queue.NumberInQueue                 .66590     (Insuf)    .00000     4.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Items.NumberIn                              50.000    
+Items.NumberOut                             45.000    
+rFresadora.NumberSeized                     47.000    
+rFresadora.ScheduledUtilization             .78540    
+rTaladro.NumberSeized                       16.000    
+rTaladro.ScheduledUtilization               .39554    
+System.NumberOut                            45.000    
+
+Beginning replication 2 of 13
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 2 of 13
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sistema                                     38.999     (Insuf)    .77349     78.046         35    
+Items.VATime                                16.892     (Insuf)    .36947     33.221         35    
+Items.NVATime                               .00000     (Insuf)    .00000     .00000         35    
+Items.WaitTime                              22.107     (Insuf)    .00000     57.913         35    
+Items.TranTime                              .00000     (Insuf)    .00000     .00000         35    
+Items.OtherTime                             .00000     (Insuf)    .00000     .00000         35    
+Items.TotalTime                             38.999     (Insuf)    .77349     78.046         35    
+Fresadora.Queue.WaitingTime                 18.956     (Insuf)    .00000     57.913         37    
+Taladro.Queue.WaitingTime                   14.712     (Insuf)    .00000     37.392         13    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+TrabajadoresWip                             3.4601     (Insuf)    .00000     10.000     5.0000    
+Items.WIP                                   3.4601     (Insuf)    .00000     10.000     5.0000    
+rFresadora.NumberBusy                       1.1261     (Insuf)    .00000     2.0000     2.0000    
+rFresadora.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rFresadora.Utilization                      .56307     (Insuf)    .00000     1.0000     1.0000    
+rTaladro.NumberBusy                         .33685     (Insuf)    .00000     1.0000     .00000    
+rTaladro.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rTaladro.Utilization                        .33685     (Insuf)    .00000     1.0000     .00000    
+Fresadora.Queue.NumberInQueue               1.5986     (Insuf)    .00000     6.0000     3.0000    
+Taladro.Queue.NumberInQueue                 .39846     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Items.NumberIn                              40.000    
+Items.NumberOut                             35.000    
+rFresadora.NumberSeized                     37.000    
+rFresadora.ScheduledUtilization             .56307    
+rTaladro.NumberSeized                       13.000    
+rTaladro.ScheduledUtilization               .33685    
+System.NumberOut                            35.000    
+
+Beginning replication 3 of 13
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 3 of 13
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sistema                                     142.34     (Insuf)    10.692     325.00         60    
+Items.VATime                                17.419     (Insuf)    .15406     53.646         60    
+Items.NVATime                               .00000     (Insuf)    .00000     .00000         60    
+Items.WaitTime                              124.92     (Insuf)    .00000     294.70         60    
+Items.TranTime                              .00000     (Insuf)    .00000     .00000         60    
+Items.OtherTime                             .00000     (Insuf)    .00000     .00000         60    
+Items.TotalTime                             142.34     (Insuf)    10.692     325.00         60    
+Fresadora.Queue.WaitingTime                 113.87     (Insuf)    .00000     186.62         60    
+Taladro.Queue.WaitingTime                   41.443     (Insuf)    .00000     108.07         16    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+TrabajadoresWip                             17.793     (Insuf)    .00000     39.000     .00000    
+Items.WIP                                   17.793     (Insuf)    .00000     39.000     .00000    
+rFresadora.NumberBusy                       1.7582     (Insuf)    .00000     2.0000     .00000    
+rFresadora.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rFresadora.Utilization                      .87910     (Insuf)    .00000     1.0000     .00000    
+rTaladro.NumberBusy                         .41927     (Insuf)    .00000     1.0000     .00000    
+rTaladro.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rTaladro.Utilization                        .41927     (Insuf)    .00000     1.0000     .00000    
+Fresadora.Queue.NumberInQueue               14.234     (Insuf)    .00000     28.000     .00000    
+Taladro.Queue.NumberInQueue                 1.3814     (Insuf)    .00000     9.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Items.NumberIn                              60.000    
+Items.NumberOut                             60.000    
+rFresadora.NumberSeized                     60.000    
+rFresadora.ScheduledUtilization             .87910    
+rTaladro.NumberSeized                       16.000    
+rTaladro.ScheduledUtilization               .41927    
+System.NumberOut                            60.000    
+
+Beginning replication 4 of 13
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 4 of 13
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sistema                                     60.093     (Insuf)    24.224     104.80         10    
+Items.VATime                                24.849     (Insuf)    6.0967     34.105         10    
+Items.NVATime                               .00000     (Insuf)    .00000     .00000         10    
+Items.WaitTime                              35.244     (Insuf)    .00000     75.345         10    
+Items.TranTime                              .00000     (Insuf)    .00000     .00000         10    
+Items.OtherTime                             .00000     (Insuf)    .00000     .00000         10    
+Items.TotalTime                             60.093     (Insuf)    24.224     104.80         10    
+Fresadora.Queue.WaitingTime                 26.838     (Insuf)    .00000     42.466         10    
+Taladro.Queue.WaitingTime                   21.015     (Insuf)    .00000     40.470          4    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+TrabajadoresWip                             1.2519     (Insuf)    .00000     10.000     .00000    
+Items.WIP                                   1.2519     (Insuf)    .00000     10.000     .00000    
+rFresadora.NumberBusy                       .41254     (Insuf)    .00000     2.0000     .00000    
+rFresadora.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rFresadora.Utilization                      .20627     (Insuf)    .00000     1.0000     .00000    
+rTaladro.NumberBusy                         .10515     (Insuf)    .00000     1.0000     .00000    
+rTaladro.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rTaladro.Utilization                        .10515     (Insuf)    .00000     1.0000     .00000    
+Fresadora.Queue.NumberInQueue               .55913     (Insuf)    .00000     5.0000     .00000    
+Taladro.Queue.NumberInQueue                 .17513     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Items.NumberIn                              10.000    
+Items.NumberOut                             10.000    
+rFresadora.NumberSeized                     10.000    
+rFresadora.ScheduledUtilization             .20627    
+rTaladro.NumberSeized                       4.0000    
+rTaladro.ScheduledUtilization               .10515    
+System.NumberOut                            10.000    
+
+Beginning replication 5 of 13
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 5 of 13
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sistema                                     48.997     (Insuf)    18.178     86.313         10    
+Items.VATime                                22.092     (Insuf)    7.3516     31.791         10    
+Items.NVATime                               .00000     (Insuf)    .00000     .00000         10    
+Items.WaitTime                              26.904     (Insuf)    .00000     55.402         10    
+Items.TranTime                              .00000     (Insuf)    .00000     .00000         10    
+Items.OtherTime                             .00000     (Insuf)    .00000     .00000         10    
+Items.TotalTime                             48.997     (Insuf)    18.178     86.313         10    
+Fresadora.Queue.WaitingTime                 14.989     (Insuf)    .00000     34.665         10    
+Taladro.Queue.WaitingTime                   23.830     (Insuf)    .00000     46.398          5    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+TrabajadoresWip                             1.0207     (Insuf)    .00000     10.000     .00000    
+Items.WIP                                   1.0207     (Insuf)    .00000     10.000     .00000    
+rFresadora.NumberBusy                       .33847     (Insuf)    .00000     2.0000     .00000    
+rFresadora.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rFresadora.Utilization                      .16924     (Insuf)    .00000     1.0000     .00000    
+rTaladro.NumberBusy                         .12179     (Insuf)    .00000     1.0000     .00000    
+rTaladro.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rTaladro.Utilization                        .12179     (Insuf)    .00000     1.0000     .00000    
+Fresadora.Queue.NumberInQueue               .31228     (Insuf)    .00000     4.0000     .00000    
+Taladro.Queue.NumberInQueue                 .24824     (Insuf)    .00000     4.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Items.NumberIn                              10.000    
+Items.NumberOut                             10.000    
+rFresadora.NumberSeized                     10.000    
+rFresadora.ScheduledUtilization             .16924    
+rTaladro.NumberSeized                       5.0000    
+rTaladro.ScheduledUtilization               .12179    
+System.NumberOut                            10.000    
+
+Beginning replication 6 of 13
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 6 of 13
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sistema                                     77.088     (Insuf)    1.7340     172.22         34    
+Items.VATime                                21.722     (Insuf)    .39703     93.077         34    
+Items.NVATime                               .00000     (Insuf)    .00000     .00000         34    
+Items.WaitTime                              55.366     (Insuf)    .00000     143.23         34    
+Items.TranTime                              .00000     (Insuf)    .00000     .00000         34    
+Items.OtherTime                             .00000     (Insuf)    .00000     .00000         34    
+Items.TotalTime                             77.088     (Insuf)    1.7340     172.22         34    
+Fresadora.Queue.WaitingTime                 57.547     (Insuf)    .00000     130.51         36    
+Taladro.Queue.WaitingTime                   7.0086     (Insuf)    .00000     23.819         10    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+TrabajadoresWip                             7.5017     (Insuf)    .00000     20.000     16.000    
+Items.WIP                                   7.5017     (Insuf)    .00000     20.000     16.000    
+rFresadora.NumberBusy                       1.4426     (Insuf)    .00000     2.0000     2.0000    
+rFresadora.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rFresadora.Utilization                      .72132     (Insuf)    .00000     1.0000     1.0000    
+rTaladro.NumberBusy                         .22656     (Insuf)    .00000     1.0000     1.0000    
+rTaladro.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rTaladro.Utilization                        .22656     (Insuf)    .00000     1.0000     1.0000    
+Fresadora.Queue.NumberInQueue               5.6587     (Insuf)    .00000     17.000     12.000    
+Taladro.Queue.NumberInQueue                 .17374     (Insuf)    .00000     2.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Items.NumberIn                              50.000    
+Items.NumberOut                             34.000    
+rFresadora.NumberSeized                     36.000    
+rFresadora.ScheduledUtilization             .72132    
+rTaladro.NumberSeized                       10.000    
+rTaladro.ScheduledUtilization               .22656    
+System.NumberOut                            34.000    
+
+Beginning replication 7 of 13
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 7 of 13
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sistema                                     68.415     (Insuf)    16.833     110.81         20    
+Items.VATime                                24.604     (Insuf)    1.9487     67.995         20    
+Items.NVATime                               .00000     (Insuf)    .00000     .00000         20    
+Items.WaitTime                              43.811     (Insuf)    .00000     79.197         20    
+Items.TranTime                              .00000     (Insuf)    .00000     .00000         20    
+Items.OtherTime                             .00000     (Insuf)    .00000     .00000         20    
+Items.TotalTime                             68.415     (Insuf)    16.833     110.81         20    
+Fresadora.Queue.WaitingTime                 39.179     (Insuf)    .00000     75.325         20    
+Taladro.Queue.WaitingTime                   15.438     (Insuf)    .00000     40.464          6    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+TrabajadoresWip                             2.8506     (Insuf)    .00000     10.000     .00000    
+Items.WIP                                   2.8506     (Insuf)    .00000     10.000     .00000    
+rFresadora.NumberBusy                       .85427     (Insuf)    .00000     2.0000     .00000    
+rFresadora.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rFresadora.Utilization                      .42714     (Insuf)    .00000     1.0000     .00000    
+rTaladro.NumberBusy                         .17091     (Insuf)    .00000     1.0000     .00000    
+rTaladro.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rTaladro.Utilization                        .17091     (Insuf)    .00000     1.0000     .00000    
+Fresadora.Queue.NumberInQueue               1.6324     (Insuf)    .00000     7.0000     .00000    
+Taladro.Queue.NumberInQueue                 .19298     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Items.NumberIn                              20.000    
+Items.NumberOut                             20.000    
+rFresadora.NumberSeized                     20.000    
+rFresadora.ScheduledUtilization             .42714    
+rTaladro.NumberSeized                       6.0000    
+rTaladro.ScheduledUtilization               .17091    
+System.NumberOut                            20.000    
+
+Beginning replication 8 of 13
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 8 of 13
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sistema                                     97.799     (Insuf)    3.7021     271.14         50    
+Items.VATime                                20.038     (Insuf)    .59715     85.643         50    
+Items.NVATime                               .00000     (Insuf)    .00000     .00000         50    
+Items.WaitTime                              77.761     (Insuf)    .00000     243.53         50    
+Items.TranTime                              .00000     (Insuf)    .00000     .00000         50    
+Items.OtherTime                             .00000     (Insuf)    .00000     .00000         50    
+Items.TotalTime                             97.799     (Insuf)    3.7021     271.14         50    
+Fresadora.Queue.WaitingTime                 70.693     (Insuf)    .00000     194.47         52    
+Taladro.Queue.WaitingTime                   17.966     (Insuf)    .00000     50.698         12    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+TrabajadoresWip                             10.382     (Insuf)    .00000     26.000     10.000    
+Items.WIP                                   10.382     (Insuf)    .00000     26.000     10.000    
+rFresadora.NumberBusy                       1.8354     (Insuf)    .00000     2.0000     2.0000    
+rFresadora.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rFresadora.Utilization                      .91770     (Insuf)    .00000     1.0000     1.0000    
+rTaladro.NumberBusy                         .30278     (Insuf)    .00000     1.0000     1.0000    
+rTaladro.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rTaladro.Utilization                        .30278     (Insuf)    .00000     1.0000     1.0000    
+Fresadora.Queue.NumberInQueue               7.7751     (Insuf)    .00000     20.000     6.0000    
+Taladro.Queue.NumberInQueue                 .46863     (Insuf)    .00000     5.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Items.NumberIn                              60.000    
+Items.NumberOut                             50.000    
+rFresadora.NumberSeized                     52.000    
+rFresadora.ScheduledUtilization             .91770    
+rTaladro.NumberSeized                       12.000    
+rTaladro.ScheduledUtilization               .30278    
+System.NumberOut                            50.000    
+
+Beginning replication 9 of 13
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 9 of 13
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sistema                                     36.715     (Insuf)    4.4117     72.968         10    
+Items.VATime                                19.148     (Insuf)    3.6740     29.629         10    
+Items.NVATime                               .00000     (Insuf)    .00000     .00000         10    
+Items.WaitTime                              17.566     (Insuf)    .00000     43.514         10    
+Items.TranTime                              .00000     (Insuf)    .00000     .00000         10    
+Items.OtherTime                             .00000     (Insuf)    .00000     .00000         10    
+Items.TotalTime                             36.715     (Insuf)    4.4117     72.968         10    
+Fresadora.Queue.WaitingTime                 10.358     (Insuf)    .00000     23.489         10    
+Taladro.Queue.WaitingTime                   18.022     (Insuf)    .00000     37.603          4    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+TrabajadoresWip                             .76492     (Insuf)    .00000     10.000     .00000    
+Items.WIP                                   .76492     (Insuf)    .00000     10.000     .00000    
+rFresadora.NumberBusy                       .29320     (Insuf)    .00000     2.0000     .00000    
+rFresadora.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rFresadora.Utilization                      .14660     (Insuf)    .00000     1.0000     .00000    
+rTaladro.NumberBusy                         .10574     (Insuf)    .00000     1.0000     .00000    
+rTaladro.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rTaladro.Utilization                        .10574     (Insuf)    .00000     1.0000     .00000    
+Fresadora.Queue.NumberInQueue               .21579     (Insuf)    .00000     4.0000     .00000    
+Taladro.Queue.NumberInQueue                 .15018     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Items.NumberIn                              10.000    
+Items.NumberOut                             10.000    
+rFresadora.NumberSeized                     10.000    
+rFresadora.ScheduledUtilization             .14660    
+rTaladro.NumberSeized                       4.0000    
+rTaladro.ScheduledUtilization               .10574    
+System.NumberOut                            10.000    
+
+Beginning replication 10 of 13
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 10 of 13
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sistema                                     64.677     (Insuf)    .78423     148.90         44    
+Items.VATime                                18.844     (Insuf)    .29998     60.996         44    
+Items.NVATime                               .00000     (Insuf)    .00000     .00000         44    
+Items.WaitTime                              45.833     (Insuf)    .00000     119.37         44    
+Items.TranTime                              .00000     (Insuf)    .00000     .00000         44    
+Items.OtherTime                             .00000     (Insuf)    .00000     .00000         44    
+Items.TotalTime                             64.677     (Insuf)    .78423     148.90         44    
+Fresadora.Queue.WaitingTime                 41.194     (Insuf)    .00000     96.372         46    
+Taladro.Queue.WaitingTime                   29.422     (Insuf)    .00000     81.437         22    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+TrabajadoresWip                             10.150     (Insuf)    .00000     33.000     26.000    
+Items.WIP                                   10.150     (Insuf)    .00000     33.000     26.000    
+rFresadora.NumberBusy                       1.4659     (Insuf)    .00000     2.0000     2.0000    
+rFresadora.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rFresadora.Utilization                      .73297     (Insuf)    .00000     1.0000     1.0000    
+rTaladro.NumberBusy                         .53317     (Insuf)    .00000     1.0000     1.0000    
+rTaladro.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rTaladro.Utilization                        .53317     (Insuf)    .00000     1.0000     1.0000    
+Fresadora.Queue.NumberInQueue               6.6820     (Insuf)    .00000     25.000     22.000    
+Taladro.Queue.NumberInQueue                 1.4695     (Insuf)    .00000     7.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Items.NumberIn                              70.000    
+Items.NumberOut                             44.000    
+rFresadora.NumberSeized                     46.000    
+rFresadora.ScheduledUtilization             .73297    
+rTaladro.NumberSeized                       22.000    
+rTaladro.ScheduledUtilization               .53317    
+System.NumberOut                            44.000    
+
+Beginning replication 11 of 13
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 11 of 13
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sistema                                     43.363     (Insuf)    .04961     115.54         35    
+Items.VATime                                18.375     (Insuf)    .04961     42.322         35    
+Items.NVATime                               .00000     (Insuf)    .00000     .00000         35    
+Items.WaitTime                              24.987     (Insuf)    .00000     83.065         35    
+Items.TranTime                              .00000     (Insuf)    .00000     .00000         35    
+Items.OtherTime                             .00000     (Insuf)    .00000     .00000         35    
+Items.TotalTime                             43.363     (Insuf)    .04961     115.54         35    
+Fresadora.Queue.WaitingTime                 12.510     (Insuf)    .00000     51.785         37    
+Taladro.Queue.WaitingTime                   31.188     (Insuf)    .00000     83.065         16    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+TrabajadoresWip                             4.0123     (Insuf)    .00000     28.000     25.000    
+Items.WIP                                   4.0123     (Insuf)    .00000     28.000     25.000    
+rFresadora.NumberBusy                       1.0194     (Insuf)    .00000     2.0000     2.0000    
+rFresadora.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rFresadora.Utilization                      .50974     (Insuf)    .00000     1.0000     1.0000    
+rTaladro.NumberBusy                         .40559     (Insuf)    .00000     1.0000     1.0000    
+rTaladro.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rTaladro.Utilization                        .40559     (Insuf)    .00000     1.0000     1.0000    
+Fresadora.Queue.NumberInQueue               1.3832     (Insuf)    .00000     19.000     17.000    
+Taladro.Queue.NumberInQueue                 1.2040     (Insuf)    .00000     7.0000     5.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Items.NumberIn                              60.000    
+Items.NumberOut                             35.000    
+rFresadora.NumberSeized                     37.000    
+rFresadora.ScheduledUtilization             .50974    
+rTaladro.NumberSeized                       16.000    
+rTaladro.ScheduledUtilization               .40559    
+System.NumberOut                            35.000    
+
+Beginning replication 12 of 13
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 12 of 13
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sistema                                     66.654     (Insuf)    1.4504     136.82         30    
+Items.VATime                                18.095     (Insuf)    .26177     64.542         30    
+Items.NVATime                               .00000     (Insuf)    .00000     .00000         30    
+Items.WaitTime                              48.559     (Insuf)    .00000     106.45         30    
+Items.TranTime                              .00000     (Insuf)    .00000     .00000         30    
+Items.OtherTime                             .00000     (Insuf)    .00000     .00000         30    
+Items.TotalTime                             66.654     (Insuf)    1.4504     136.82         30    
+Fresadora.Queue.WaitingTime                 46.456     (Insuf)    .00000     97.637         30    
+Taladro.Queue.WaitingTime                   9.0133     (Insuf)    .00000     23.421          7    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+TrabajadoresWip                             4.1659     (Insuf)    .00000     16.000     .00000    
+Items.WIP                                   4.1659     (Insuf)    .00000     16.000     .00000    
+rFresadora.NumberBusy                       .95256     (Insuf)    .00000     2.0000     .00000    
+rFresadora.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rFresadora.Utilization                      .47628     (Insuf)    .00000     1.0000     .00000    
+rTaladro.NumberBusy                         .17841     (Insuf)    .00000     1.0000     .00000    
+rTaladro.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rTaladro.Utilization                        .17841     (Insuf)    .00000     1.0000     .00000    
+Fresadora.Queue.NumberInQueue               2.9035     (Insuf)    .00000     14.000     .00000    
+Taladro.Queue.NumberInQueue                 .13144     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Items.NumberIn                              30.000    
+Items.NumberOut                             30.000    
+rFresadora.NumberSeized                     30.000    
+rFresadora.ScheduledUtilization             .47628    
+rTaladro.NumberSeized                       7.0000    
+rTaladro.ScheduledUtilization               .17841    
+System.NumberOut                            30.000    
+
+Beginning replication 13 of 13
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 13 of 13
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sistema                                     78.123     (Insuf)    7.6802     123.62         30    
+Items.VATime                                25.890     (Insuf)    2.6375     78.963         30    
+Items.NVATime                               .00000     (Insuf)    .00000     .00000         30    
+Items.WaitTime                              52.233     (Insuf)    .00000     93.062         30    
+Items.TranTime                              .00000     (Insuf)    .00000     .00000         30    
+Items.OtherTime                             .00000     (Insuf)    .00000     .00000         30    
+Items.TotalTime                             78.123     (Insuf)    7.6802     123.62         30    
+Fresadora.Queue.WaitingTime                 41.426     (Insuf)    .00000     78.294         30    
+Taladro.Queue.WaitingTime                   23.157     (Insuf)    .00000     51.843         14    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+TrabajadoresWip                             4.8827     (Insuf)    .00000     14.000     .00000    
+Items.WIP                                   4.8827     (Insuf)    .00000     14.000     .00000    
+rFresadora.NumberBusy                       1.2518     (Insuf)    .00000     2.0000     .00000    
+rFresadora.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rFresadora.Utilization                      .62593     (Insuf)    .00000     1.0000     .00000    
+rTaladro.NumberBusy                         .36628     (Insuf)    .00000     1.0000     .00000    
+rTaladro.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rTaladro.Utilization                        .36628     (Insuf)    .00000     1.0000     .00000    
+Fresadora.Queue.NumberInQueue               2.5891     (Insuf)    .00000     8.0000     .00000    
+Taladro.Queue.NumberInQueue                 .67543     (Insuf)    .00000     4.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Items.NumberIn                              30.000    
+Items.NumberOut                             30.000    
+rFresadora.NumberSeized                     30.000    
+rFresadora.ScheduledUtilization             .62593    
+rTaladro.NumberSeized                       14.000    
+rTaladro.ScheduledUtilization               .36628    
+System.NumberOut                            30.000    
+
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                 Output Summary for 13 Replications
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Items.NumberIn                              38.461     13.019     10.000     70.000     13
+Items.NumberOut                             31.769     9.6290     10.000     60.000     13
+rFresadora.NumberSeized                     32.692     9.9744     10.000     60.000     13
+rFresadora.ScheduledUtilization             .55083     .15756     .14660     .91770     13
+rTaladro.NumberSeized                       11.153     3.4262     4.0000     22.000     13
+rTaladro.ScheduledUtilization               .28216     .08454     .10515     .53317     13
+System.NumberOut                            31.769     9.6290     10.000     60.000     13
+
+Simulation run time: 0.08 minutes.
+Simulation run complete.

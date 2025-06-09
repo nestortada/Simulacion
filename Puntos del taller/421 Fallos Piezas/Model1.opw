@@ -1,0 +1,15 @@
+[RESOURCES]
+rSeguimiento
+rEnfermera
+[VARIABLES]
+Seguimiemto.VATime
+Process 1.NumberIn
+Cita de Seguimiento.NumberOut True
+Cita de Seguimiento.NumberOut False
+Dispose 1.NumberOut
+Seguimiemto.WaitTime
+Process 1.VATime
+Tiempo Pacientes.NumberOut
+Seguimiemto.NumberOut
+Seguimiemto.NumberIn
+Process 1.NumberOut

@@ -1,0 +1,2034 @@
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 1 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .02845     .03882     .00000     1.0000        703    
+TiempoSistema                               241.65     (Corr)     .09508     476.62        703    
+TiempoEspera                                1.6695     (Corr)     .00000     7.6149        703    
+Entity 1.VATime                             2.1781     .03013     1.1488     2.9393        703    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        703    
+Entity 1.WaitTime                           1.6695     (Corr)     .00000     7.6149        703    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        703    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        703    
+Entity 1.TotalTime                          3.8476     .54336     1.2264     9.8522        703    
+Esperar Pedido.Queue.WaitingTime            .05481     .02014     .00000     .72247        705    
+OcuparCajero.Queue.WaitingTime              1.6144     (Corr)     .00000     6.8924        707    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                5.6668     (Corr)     .00000     16.000     7.0000    
+rCajero.NumberBusy                          1.7774     (Insuf)    .00000     2.0000     2.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .88875     (Insuf)    .00000     1.0000     1.0000    
+rchef.NumberBusy                            1.4236     .09036     .00000     2.0000     2.0000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .71184     .04518     .00000     1.0000     1.0000    
+Esperar Pedido.Queue.NumberInQueue          .08050     .02753     .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            2.3852     (Corr)     .00000     12.000     3.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                   103  Infinite
+Contadortipo3                                   386  Infinite
+Contadortipo1                                   214  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           710.00    
+Entity 1.NumberOut                          703.00    
+rCajero.NumberSeized                        707.00    
+rCajero.ScheduledUtilization                .88875    
+rchef.NumberSeized                          705.00    
+rchef.ScheduledUtilization                  .71184    
+System.NumberOut                            703.00    
+
+Beginning replication 2 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 2 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .00000     .00000     .00000     .00000        679    
+TiempoSistema                               238.29     (Corr)     .05791     477.42        679    
+TiempoEspera                                1.3012     .32382     .00000     4.5671        679    
+Entity 1.VATime                             2.1840     (Corr)     1.1890     2.9204        679    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        679    
+Entity 1.WaitTime                           1.3012     .32382     .00000     4.5671        679    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        679    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        679    
+Entity 1.TotalTime                          3.4852     .32202     1.3155     6.9459        679    
+Esperar Pedido.Queue.WaitingTime            .05309     .01527     .00000     .64426        679    
+OcuparCajero.Queue.WaitingTime              1.2444     .32056     .00000     4.5671        681    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                4.9364     .64744     .00000     13.000     4.0000    
+rCajero.NumberBusy                          1.7063     .09272     .00000     2.0000     2.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .85318     .04636     .00000     1.0000     1.0000    
+rchef.NumberBusy                            1.3874     .07840     .00000     2.0000     .00000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .69371     .03920     .00000     1.0000     .00000    
+Esperar Pedido.Queue.NumberInQueue          .07510     .02342     .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            1.7675     .49740     .00000     8.0000     2.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                   116  Infinite
+Contadortipo3                                   369  Infinite
+Contadortipo1                                   194  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           683.00    
+Entity 1.NumberOut                          679.00    
+rCajero.NumberSeized                        681.00    
+rCajero.ScheduledUtilization                .85318    
+rchef.NumberSeized                          679.00    
+rchef.ScheduledUtilization                  .69371    
+System.NumberOut                            679.00    
+
+Beginning replication 3 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 3 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .08953     .11915     .00000     1.0000        659    
+TiempoSistema                               234.96     (Corr)     .21265     477.58        659    
+TiempoEspera                                1.6532     .77897     .00000     8.9310        659    
+Entity 1.VATime                             2.2049     .02874     1.2560     2.9203        659    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        659    
+Entity 1.WaitTime                           1.6532     .77897     .00000     8.9310        659    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        659    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        659    
+Entity 1.TotalTime                          3.8582     .78415     1.2774     10.905        659    
+Esperar Pedido.Queue.WaitingTime            .04305     .01758     .00000     .95064        661    
+OcuparCajero.Queue.WaitingTime              1.6087     .77734     .00000     8.8641        663    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                5.3227     (Corr)     .00000     19.000     8.0000    
+rCajero.NumberBusy                          1.6797     .11035     .00000     2.0000     2.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .83987     .05518     .00000     1.0000     1.0000    
+rchef.NumberBusy                            1.3533     .09381     .00000     2.0000     2.0000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .67669     .04690     .00000     1.0000     1.0000    
+Esperar Pedido.Queue.NumberInQueue          .05928     (Insuf)    .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            2.2303     (Corr)     .00000     15.000     4.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                    95  Infinite
+Contadortipo3                                   379  Infinite
+Contadortipo1                                   185  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           667.00    
+Entity 1.NumberOut                          659.00    
+rCajero.NumberSeized                        663.00    
+rCajero.ScheduledUtilization                .83987    
+rchef.NumberSeized                          661.00    
+rchef.ScheduledUtilization                  .67669    
+System.NumberOut                            659.00    
+
+Beginning replication 4 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 4 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .06609     .10045     .00000     1.0000        696    
+TiempoSistema                               235.80     (Corr)     .48971     475.52        696    
+TiempoEspera                                1.7113     .75744     .00000     8.7457        696    
+Entity 1.VATime                             2.1750     .02131     1.2005     3.0119        696    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        696    
+Entity 1.WaitTime                           1.7113     .75744     .00000     8.7457        696    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        696    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        696    
+Entity 1.TotalTime                          3.8863     .75328     1.2684     11.303        696    
+Esperar Pedido.Queue.WaitingTime            .04634     .01499     .00000     .87214        698    
+OcuparCajero.Queue.WaitingTime              1.6711     .75678     .00000     8.7457        701    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                5.6756     (Corr)     .00000     19.000     6.0000    
+rCajero.NumberBusy                          1.7493     (Insuf)    .00000     2.0000     2.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .87469     (Insuf)    .00000     1.0000     1.0000    
+rchef.NumberBusy                            1.4153     .08358     .00000     2.0000     2.0000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .70767     .04179     .00000     1.0000     1.0000    
+Esperar Pedido.Queue.NumberInQueue          .06778     .01778     .00000     2.0000     1.0000    
+OcuparCajero.Queue.NumberInQueue            2.4431     (Corr)     .00000     15.000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                    96  Infinite
+Contadortipo3                                   390  Infinite
+Contadortipo1                                   210  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           702.00    
+Entity 1.NumberOut                          696.00    
+rCajero.NumberSeized                        701.00    
+rCajero.ScheduledUtilization                .87469    
+rchef.NumberSeized                          698.00    
+rchef.ScheduledUtilization                  .70767    
+System.NumberOut                            696.00    
+
+Beginning replication 5 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 5 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .02568     .02783     .00000     1.0000        701    
+TiempoSistema                               242.19     (Corr)     1.9953     475.69        701    
+TiempoEspera                                1.5114     .49557     .00000     6.8879        701    
+Entity 1.VATime                             2.1466     (Corr)     1.1608     2.9852        701    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        701    
+Entity 1.WaitTime                           1.5114     .49557     .00000     6.8879        701    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        701    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        701    
+Entity 1.TotalTime                          3.6581     (Corr)     1.3204     9.1428        701    
+Esperar Pedido.Queue.WaitingTime            .05189     .01445     .00000     .75618        702    
+OcuparCajero.Queue.WaitingTime              1.4655     .47132     .00000     6.8879        704    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                5.3828     (Corr)     .00000     14.000     8.0000    
+rCajero.NumberBusy                          1.7483     (Insuf)    .00000     2.0000     2.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .87420     (Insuf)    .00000     1.0000     1.0000    
+rchef.NumberBusy                            1.3947     .08113     .00000     2.0000     1.0000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .69735     .04056     .00000     1.0000     .50000    
+Esperar Pedido.Queue.NumberInQueue          .07588     .02382     .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            2.1638     (Corr)     .00000     12.000     5.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                   103  Infinite
+Contadortipo3                                   379  Infinite
+Contadortipo1                                   219  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           709.00    
+Entity 1.NumberOut                          701.00    
+rCajero.NumberSeized                        704.00    
+rCajero.ScheduledUtilization                .87420    
+rchef.NumberSeized                          702.00    
+rchef.ScheduledUtilization                  .69735    
+System.NumberOut                            701.00    
+
+Beginning replication 6 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 6 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .05775     .09285     .00000     1.0000        658    
+TiempoSistema                               232.71     (Corr)     .77631     474.67        658    
+TiempoEspera                                1.2601     .70155     .00000     8.6383        658    
+Entity 1.VATime                             2.1618     .03608     1.0704     2.8864        658    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        658    
+Entity 1.WaitTime                           1.2601     .70155     .00000     8.6383        658    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        658    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        658    
+Entity 1.TotalTime                          3.4220     .69936     1.3114     10.698        658    
+Esperar Pedido.Queue.WaitingTime            .03868     .00914     .00000     .58678        660    
+OcuparCajero.Queue.WaitingTime              1.2228     .69991     .00000     8.6383        663    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                4.7267     (Corr)     .00000     19.000     9.0000    
+rCajero.NumberBusy                          1.6569     .10409     .00000     2.0000     2.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .82845     .05205     .00000     1.0000     1.0000    
+rchef.NumberBusy                            1.3205     (Corr)     .00000     2.0000     2.0000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .66029     (Corr)     .00000     1.0000     1.0000    
+Esperar Pedido.Queue.NumberInQueue          .05421     (Insuf)    .00000     2.0000     1.0000    
+OcuparCajero.Queue.NumberInQueue            1.6950     (Corr)     .00000     15.000     4.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                   103  Infinite
+Contadortipo3                                   353  Infinite
+Contadortipo1                                   202  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           667.00    
+Entity 1.NumberOut                          658.00    
+rCajero.NumberSeized                        663.00    
+rCajero.ScheduledUtilization                .82845    
+rchef.NumberSeized                          660.00    
+rchef.ScheduledUtilization                  .66029    
+System.NumberOut                            658.00    
+
+Beginning replication 7 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 7 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .03536     .05047     .00000     1.0000        707    
+TiempoSistema                               233.45     (Corr)     .48213     475.18        707    
+TiempoEspera                                1.6484     .47245     .00000     6.4942        707    
+Entity 1.VATime                             2.1471     .03672     1.1304     3.0150        707    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        707    
+Entity 1.WaitTime                           1.6484     .47245     .00000     6.4942        707    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        707    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        707    
+Entity 1.TotalTime                          3.7955     .46471     1.4049     9.1073        707    
+Esperar Pedido.Queue.WaitingTime            .04498     .01087     .00000     .86555        708    
+OcuparCajero.Queue.WaitingTime              1.6045     .47288     .00000     6.4942        710    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                5.6217     (Corr)     .00000     15.000     6.0000    
+rCajero.NumberBusy                          1.7644     (Insuf)    .00000     2.0000     2.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .88221     (Insuf)    .00000     1.0000     1.0000    
+rchef.NumberBusy                            1.4065     .07421     .00000     2.0000     1.0000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .70329     .03711     .00000     1.0000     .50000    
+Esperar Pedido.Queue.NumberInQueue          .06635     .01783     .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            2.3844     (Corr)     .00000     12.000     3.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                   103  Infinite
+Contadortipo3                                   373  Infinite
+Contadortipo1                                   231  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           713.00    
+Entity 1.NumberOut                          707.00    
+rCajero.NumberSeized                        710.00    
+rCajero.ScheduledUtilization                .88221    
+rchef.NumberSeized                          708.00    
+rchef.ScheduledUtilization                  .70329    
+System.NumberOut                            707.00    
+
+Beginning replication 8 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 8 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .02266     .02219     .00000     1.0000        662    
+TiempoSistema                               244.89     (Corr)     .37910     475.21        662    
+TiempoEspera                                1.3929     .53744     .00000     6.4421        662    
+Entity 1.VATime                             2.1456     (Corr)     1.1295     2.9367        662    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        662    
+Entity 1.WaitTime                           1.3929     .53744     .00000     6.4421        662    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        662    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        662    
+Entity 1.TotalTime                          3.5385     .54614     1.2841     8.9749        662    
+Esperar Pedido.Queue.WaitingTime            .04318     .01736     .00000     .75004        664    
+OcuparCajero.Queue.WaitingTime              1.3449     .52924     .00000     6.4421        666    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                4.8965     .92819     .00000     15.000     5.0000    
+rCajero.NumberBusy                          1.6672     (Insuf)    .00000     2.0000     2.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .83361     (Insuf)    .00000     1.0000     1.0000    
+rchef.NumberBusy                            1.3032     (Corr)     .00000     2.0000     2.0000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .65164     (Corr)     .00000     1.0000     1.0000    
+Esperar Pedido.Queue.NumberInQueue          .05974     (Insuf)    .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            1.8663     .75315     .00000     11.000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                    94  Infinite
+Contadortipo3                                   345  Infinite
+Contadortipo1                                   223  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           667.00    
+Entity 1.NumberOut                          662.00    
+rCajero.NumberSeized                        666.00    
+rCajero.ScheduledUtilization                .83361    
+rchef.NumberSeized                          664.00    
+rchef.ScheduledUtilization                  .65164    
+System.NumberOut                            662.00    
+
+Beginning replication 9 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 9 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .00308     .00445     .00000     1.0000        649    
+TiempoSistema                               235.27     (Corr)     .87465     478.03        649    
+TiempoEspera                                .95982     (Corr)     .00000     5.3239        649    
+Entity 1.VATime                             2.1605     .02013     1.1488     2.9468        649    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        649    
+Entity 1.WaitTime                           .95982     (Corr)     .00000     5.3239        649    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        649    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        649    
+Entity 1.TotalTime                          3.1204     (Corr)     1.2603     7.2451        649    
+Esperar Pedido.Queue.WaitingTime            .03167     .00978     .00000     .54519        650    
+OcuparCajero.Queue.WaitingTime              .92637     (Corr)     .00000     5.3069        652    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                4.2400     (Corr)     .00000     12.000     8.0000    
+rCajero.NumberBusy                          1.6357     (Corr)     .00000     2.0000     2.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .81788     (Corr)     .00000     1.0000     1.0000    
+rchef.NumberBusy                            1.2948     .07670     .00000     2.0000     1.0000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .64742     .03835     .00000     1.0000     .50000    
+Esperar Pedido.Queue.NumberInQueue          .04289     (Insuf)    .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            1.2665     (Corr)     .00000     9.0000     5.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                    78  Infinite
+Contadortipo3                                   356  Infinite
+Contadortipo1                                   215  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           657.00    
+Entity 1.NumberOut                          649.00    
+rCajero.NumberSeized                        652.00    
+rCajero.ScheduledUtilization                .81788    
+rchef.NumberSeized                          650.00    
+rchef.ScheduledUtilization                  .64742    
+System.NumberOut                            649.00    
+
+Beginning replication 10 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 10 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .00000     .00000     .00000     .00000        670    
+TiempoSistema                               236.38     (Corr)     .21620     477.11        670    
+TiempoEspera                                .94292     (Corr)     .00000     4.5788        670    
+Entity 1.VATime                             2.1654     .02299     1.0932     2.9332        670    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        670    
+Entity 1.WaitTime                           .94292     (Corr)     .00000     4.5788        670    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        670    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        670    
+Entity 1.TotalTime                          3.1083     (Corr)     1.2004     6.9247        670    
+Esperar Pedido.Queue.WaitingTime            .04621     .01720     .00000     1.1571        672    
+OcuparCajero.Queue.WaitingTime              .89618     (Corr)     .00000     4.5299        674    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                4.3581     .52808     .00000     12.000     5.0000    
+rCajero.NumberBusy                          1.6830     .08090     .00000     2.0000     2.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .84151     .04045     .00000     1.0000     1.0000    
+rchef.NumberBusy                            1.3488     .06806     .00000     2.0000     2.0000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .67441     .03403     .00000     1.0000     1.0000    
+Esperar Pedido.Queue.NumberInQueue          .06469     (Insuf)    .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            1.2616     .41879     .00000     8.0000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                   107  Infinite
+Contadortipo3                                   361  Infinite
+Contadortipo1                                   202  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           675.00    
+Entity 1.NumberOut                          670.00    
+rCajero.NumberSeized                        674.00    
+rCajero.ScheduledUtilization                .84151    
+rchef.NumberSeized                          672.00    
+rchef.ScheduledUtilization                  .67441    
+System.NumberOut                            670.00    
+
+Beginning replication 11 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 11 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .14222     (Corr)     .00000     1.0000        668    
+TiempoSistema                               237.19     (Corr)     .00335     477.34        668    
+TiempoEspera                                1.9648     (Corr)     .00000     10.342        668    
+Entity 1.VATime                             2.1790     .02342     1.2718     3.0181        668    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        668    
+Entity 1.WaitTime                           1.9648     (Corr)     .00000     10.342        668    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        668    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        668    
+Entity 1.TotalTime                          4.1439     (Corr)     1.3680     12.343        668    
+Esperar Pedido.Queue.WaitingTime            .04843     .01375     .00000     .68644        669    
+OcuparCajero.Queue.WaitingTime              1.9106     (Corr)     .00000     10.312        670    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                5.7720     (Corr)     .00000     21.000     2.0000    
+rCajero.NumberBusy                          1.6778     (Insuf)    .00000     2.0000     1.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .83893     (Insuf)    .00000     1.0000     .50000    
+rchef.NumberBusy                            1.3597     .09191     .00000     2.0000     1.0000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .67988     .04595     .00000     1.0000     .50000    
+Esperar Pedido.Queue.NumberInQueue          .06750     .01994     .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            2.6669     (Corr)     .00000     18.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                   105  Infinite
+Contadortipo3                                   371  Infinite
+Contadortipo1                                   192  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           670.00    
+Entity 1.NumberOut                          668.00    
+rCajero.NumberSeized                        670.00    
+rCajero.ScheduledUtilization                .83893    
+rchef.NumberSeized                          669.00    
+rchef.ScheduledUtilization                  .67988    
+System.NumberOut                            668.00    
+
+Beginning replication 12 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 12 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .08921     (Corr)     .00000     1.0000        695    
+TiempoSistema                               237.84     (Corr)     .61918     476.26        695    
+TiempoEspera                                2.1249     (Corr)     .00000     8.3094        695    
+Entity 1.VATime                             2.1741     .03121     1.1315     3.0539        695    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        695    
+Entity 1.WaitTime                           2.1249     (Corr)     .00000     8.3094        695    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        695    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        695    
+Entity 1.TotalTime                          4.2991     (Corr)     1.2142     10.609        695    
+Esperar Pedido.Queue.WaitingTime            .04533     .01535     .00000     .84716        697    
+OcuparCajero.Queue.WaitingTime              2.0740     (Corr)     .00000     8.3094        699    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                6.2453     (Corr)     .00000     17.000     7.0000    
+rCajero.NumberBusy                          1.7579     (Insuf)    .00000     2.0000     2.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .87899     (Insuf)    .00000     1.0000     1.0000    
+rchef.NumberBusy                            1.3988     .09766     .00000     2.0000     2.0000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .69940     .04883     .00000     1.0000     1.0000    
+Esperar Pedido.Queue.NumberInQueue          .06583     .02476     .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            3.0227     (Corr)     .00000     14.000     3.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                   110  Infinite
+Contadortipo3                                   372  Infinite
+Contadortipo1                                   213  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           702.00    
+Entity 1.NumberOut                          695.00    
+rCajero.NumberSeized                        699.00    
+rCajero.ScheduledUtilization                .87899    
+rchef.NumberSeized                          697.00    
+rchef.ScheduledUtilization                  .69940    
+System.NumberOut                            695.00    
+
+Beginning replication 13 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 13 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .00619     .01275     .00000     1.0000        646    
+TiempoSistema                               243.19     (Corr)     .09872     475.44        646    
+TiempoEspera                                .89358     (Corr)     .00000     5.6764        646    
+Entity 1.VATime                             2.1582     .03050     1.1722     3.0048        646    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        646    
+Entity 1.WaitTime                           .89358     (Corr)     .00000     5.6764        646    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        646    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        646    
+Entity 1.TotalTime                          3.0517     (Corr)     1.1806     7.7245        646    
+Esperar Pedido.Queue.WaitingTime            .03447     .00970     .00000     .63469        648    
+OcuparCajero.Queue.WaitingTime              .85573     (Corr)     .00000     5.6764        650    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                4.1194     (Corr)     .00000     13.000     5.0000    
+rCajero.NumberBusy                          1.6404     .08893     .00000     2.0000     2.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .82024     .04447     .00000     1.0000     1.0000    
+rchef.NumberBusy                            1.2719     .06161     .00000     2.0000     2.0000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .63597     .03081     .00000     1.0000     1.0000    
+Esperar Pedido.Queue.NumberInQueue          .04653     (Insuf)    .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            1.1604     (Corr)     .00000     10.000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                    88  Infinite
+Contadortipo3                                   337  Infinite
+Contadortipo1                                   221  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           651.00    
+Entity 1.NumberOut                          646.00    
+rCajero.NumberSeized                        650.00    
+rCajero.ScheduledUtilization                .82024    
+rchef.NumberSeized                          648.00    
+rchef.ScheduledUtilization                  .63597    
+System.NumberOut                            646.00    
+
+Beginning replication 14 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 14 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .05652     .06189     .00000     1.0000        690    
+TiempoSistema                               239.24     (Corr)     .68427     473.93        690    
+TiempoEspera                                1.7764     .55766     .00000     6.8386        690    
+Entity 1.VATime                             2.1672     .02697     1.1021     2.9978        690    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        690    
+Entity 1.WaitTime                           1.7764     .55766     .00000     6.8386        690    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        690    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        690    
+Entity 1.TotalTime                          3.9436     .55326     1.1021     9.3501        690    
+Esperar Pedido.Queue.WaitingTime            .04277     .01368     .00000     .64708        691    
+OcuparCajero.Queue.WaitingTime              1.7460     .55540     .00000     6.7400        693    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                5.7273     .91110     .00000     15.000     9.0000    
+rCajero.NumberBusy                          1.7382     (Insuf)    .00000     2.0000     2.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .86910     (Insuf)    .00000     1.0000     1.0000    
+rchef.NumberBusy                            1.3826     .07374     .00000     2.0000     1.0000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .69131     .03687     .00000     1.0000     .50000    
+Esperar Pedido.Queue.NumberInQueue          .06157     .01606     .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            2.5449     .78316     .00000     12.000     6.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                   109  Infinite
+Contadortipo3                                   377  Infinite
+Contadortipo1                                   204  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           699.00    
+Entity 1.NumberOut                          690.00    
+rCajero.NumberSeized                        693.00    
+rCajero.ScheduledUtilization                .86910    
+rchef.NumberSeized                          691.00    
+rchef.ScheduledUtilization                  .69131    
+System.NumberOut                            690.00    
+
+Beginning replication 15 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 15 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .01574     .02831     .00000     1.0000        699    
+TiempoSistema                               239.46     (Corr)     .37216     475.41        699    
+TiempoEspera                                1.6979     .50456     .00000     6.3900        699    
+Entity 1.VATime                             2.1699     .03140     1.1477     2.9454        699    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        699    
+Entity 1.WaitTime                           1.6979     .50456     .00000     6.3900        699    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        699    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        699    
+Entity 1.TotalTime                          3.8679     .51510     1.2592     8.4540        699    
+Esperar Pedido.Queue.WaitingTime            .05548     .01330     .00000     .96936        699    
+OcuparCajero.Queue.WaitingTime              1.6401     .50479     .00000     5.9111        700    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                5.6326     (Corr)     .00000     14.000     1.0000    
+rCajero.NumberBusy                          1.7444     (Insuf)    .00000     2.0000     1.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .87224     (Insuf)    .00000     1.0000     .50000    
+rchef.NumberBusy                            1.4155     (Corr)     .00000     2.0000     .00000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .70775     (Corr)     .00000     1.0000     .00000    
+Esperar Pedido.Queue.NumberInQueue          .08079     .01852     .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            2.3918     (Corr)     .00000     11.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                   107  Infinite
+Contadortipo3                                   388  Infinite
+Contadortipo1                                   204  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           700.00    
+Entity 1.NumberOut                          699.00    
+rCajero.NumberSeized                        700.00    
+rCajero.ScheduledUtilization                .87224    
+rchef.NumberSeized                          699.00    
+rchef.ScheduledUtilization                  .70775    
+System.NumberOut                            699.00    
+
+Beginning replication 16 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 16 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .12766     (Corr)     .00000     1.0000        705    
+TiempoSistema                               238.55     (Corr)     .98923     477.57        705    
+TiempoEspera                                2.1849     (Corr)     .00000     10.056        705    
+Entity 1.VATime                             2.1601     .02733     1.1701     3.0287        705    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        705    
+Entity 1.WaitTime                           2.1849     (Corr)     .00000     10.056        705    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        705    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        705    
+Entity 1.TotalTime                          4.3450     (Corr)     1.2057     12.673        705    
+Esperar Pedido.Queue.WaitingTime            .04560     .01216     .00000     .68141        706    
+OcuparCajero.Queue.WaitingTime              2.1362     (Corr)     .00000     10.041        706    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                6.3858     (Corr)     .00000     22.000     1.0000    
+rCajero.NumberBusy                          1.7695     (Insuf)    .00000     2.0000     .00000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .88479     (Insuf)    .00000     1.0000     .00000    
+rchef.NumberBusy                            1.4071     (Corr)     .00000     2.0000     1.0000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .70355     (Corr)     .00000     1.0000     .50000    
+Esperar Pedido.Queue.NumberInQueue          .06707     .02144     .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            3.1421     (Corr)     .00000     17.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                   105  Infinite
+Contadortipo3                                   376  Infinite
+Contadortipo1                                   224  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           706.00    
+Entity 1.NumberOut                          705.00    
+rCajero.NumberSeized                        706.00    
+rCajero.ScheduledUtilization                .88479    
+rchef.NumberSeized                          706.00    
+rchef.ScheduledUtilization                  .70355    
+System.NumberOut                            705.00    
+
+Beginning replication 17 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 17 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .15385     (Corr)     .00000     1.0000        676    
+TiempoSistema                               226.08     (Corr)     .42043     474.18        676    
+TiempoEspera                                2.1146     (Corr)     .00000     9.1237        676    
+Entity 1.VATime                             2.1593     .03457     1.1849     3.0436        676    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        676    
+Entity 1.WaitTime                           2.1146     (Corr)     .00000     9.1237        676    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        676    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        676    
+Entity 1.TotalTime                          4.2739     (Corr)     1.3778     11.606        676    
+Esperar Pedido.Queue.WaitingTime            .04774     .01771     .00000     .81016        678    
+OcuparCajero.Queue.WaitingTime              2.0581     (Corr)     .00000     8.9691        679    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                6.0287     (Corr)     .00000     19.000     3.0000    
+rCajero.NumberBusy                          1.6896     (Insuf)    .00000     2.0000     1.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .84483     (Insuf)    .00000     1.0000     .50000    
+rchef.NumberBusy                            1.3601     .08970     .00000     2.0000     2.0000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .68006     .04485     .00000     1.0000     1.0000    
+Esperar Pedido.Queue.NumberInQueue          .06744     .02251     .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            2.9114     (Corr)     .00000     15.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                    94  Infinite
+Contadortipo3                                   375  Infinite
+Contadortipo1                                   207  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           679.00    
+Entity 1.NumberOut                          676.00    
+rCajero.NumberSeized                        679.00    
+rCajero.ScheduledUtilization                .84483    
+rchef.NumberSeized                          678.00    
+rchef.ScheduledUtilization                  .68006    
+System.NumberOut                            676.00    
+
+Beginning replication 18 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 18 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .00929     (Corr)     .00000     1.0000        646    
+TiempoSistema                               238.64     (Corr)     .23036     472.85        646    
+TiempoEspera                                1.0789     (Corr)     .00000     5.8387        646    
+Entity 1.VATime                             2.1779     .02549     1.1351     3.0329        646    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        646    
+Entity 1.WaitTime                           1.0789     (Corr)     .00000     5.8387        646    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        646    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        646    
+Entity 1.TotalTime                          3.2568     (Corr)     1.3521     7.8924        646    
+Esperar Pedido.Queue.WaitingTime            .04548     .01299     .00000     .70979        648    
+OcuparCajero.Queue.WaitingTime              1.0568     (Corr)     .00000     5.7335        650    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                4.4381     (Corr)     .00000     14.000     6.0000    
+rCajero.NumberBusy                          1.6206     .11516     .00000     2.0000     2.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .81031     .05758     .00000     1.0000     1.0000    
+rchef.NumberBusy                            1.3168     .10827     .00000     2.0000     2.0000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .65841     .05413     .00000     1.0000     1.0000    
+Esperar Pedido.Queue.NumberInQueue          .06139     .01821     .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            1.4393     (Corr)     .00000     10.000     2.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                    97  Infinite
+Contadortipo3                                   364  Infinite
+Contadortipo1                                   185  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           652.00    
+Entity 1.NumberOut                          646.00    
+rCajero.NumberSeized                        650.00    
+rCajero.ScheduledUtilization                .81031    
+rchef.NumberSeized                          648.00    
+rchef.ScheduledUtilization                  .65841    
+System.NumberOut                            646.00    
+
+Beginning replication 19 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 19 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .02754     .03679     .00000     1.0000        690    
+TiempoSistema                               239.65     (Corr)     .05950     476.38        690    
+TiempoEspera                                1.3923     .45174     .00000     7.2531        690    
+Entity 1.VATime                             2.1409     .02946     1.0213     2.9463        690    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        690    
+Entity 1.WaitTime                           1.3923     .45174     .00000     7.2531        690    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        690    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        690    
+Entity 1.TotalTime                          3.5332     .45960     1.2598     9.3167        690    
+Esperar Pedido.Queue.WaitingTime            .03456     (Corr)     .00000     .63563        691    
+OcuparCajero.Queue.WaitingTime              1.3553     .45063     .00000     7.0429        692    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                5.0871     (Corr)     .00000     15.000     2.0000    
+rCajero.NumberBusy                          1.7446     .07745     .00000     2.0000     1.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .87232     .03873     .00000     1.0000     .50000    
+rchef.NumberBusy                            1.3387     .06807     .00000     2.0000     1.0000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .66939     .03403     .00000     1.0000     .50000    
+Esperar Pedido.Queue.NumberInQueue          .04975     (Insuf)    .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            1.9539     (Corr)     .00000     12.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                    85  Infinite
+Contadortipo3                                   354  Infinite
+Contadortipo1                                   251  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           692.00    
+Entity 1.NumberOut                          690.00    
+rCajero.NumberSeized                        692.00    
+rCajero.ScheduledUtilization                .87232    
+rchef.NumberSeized                          691.00    
+rchef.ScheduledUtilization                  .66939    
+System.NumberOut                            690.00    
+
+Beginning replication 20 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 20 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .04538     .04884     .00000     1.0000        639    
+TiempoSistema                               231.25     (Corr)     .42714     473.79        639    
+TiempoEspera                                1.4272     (Corr)     .00000     6.7705        639    
+Entity 1.VATime                             2.1617     .02592     1.3011     3.0052        639    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        639    
+Entity 1.WaitTime                           1.4272     (Corr)     .00000     6.7705        639    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        639    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        639    
+Entity 1.TotalTime                          3.5889     (Corr)     1.3011     8.9215        639    
+Esperar Pedido.Queue.WaitingTime            .03695     .01393     .00000     .65946        641    
+OcuparCajero.Queue.WaitingTime              1.4063     (Corr)     .00000     6.3518        643    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                4.8237     (Corr)     .00000     16.000     6.0000    
+rCajero.NumberBusy                          1.6052     .12744     .00000     2.0000     2.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .80261     .06372     .00000     1.0000     1.0000    
+rchef.NumberBusy                            1.2820     .11206     .00000     2.0000     2.0000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .64101     .05603     .00000     1.0000     1.0000    
+Esperar Pedido.Queue.NumberInQueue          .04935     (Insuf)    .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            1.8871     (Corr)     .00000     12.000     2.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                    91  Infinite
+Contadortipo3                                   341  Infinite
+Contadortipo1                                   207  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           645.00    
+Entity 1.NumberOut                          639.00    
+rCajero.NumberSeized                        643.00    
+rCajero.ScheduledUtilization                .80261    
+rchef.NumberSeized                          641.00    
+rchef.ScheduledUtilization                  .64101    
+System.NumberOut                            639.00    
+
+Beginning replication 21 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 21 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .01327     .01595     .00000     1.0000        678    
+TiempoSistema                               233.78     (Corr)     .57695     478.14        678    
+TiempoEspera                                1.5501     .44502     .00000     6.4001        678    
+Entity 1.VATime                             2.1737     .03212     1.0926     3.1565        678    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        678    
+Entity 1.WaitTime                           1.5501     .44502     .00000     6.4001        678    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        678    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        678    
+Entity 1.TotalTime                          3.7239     .44302     1.3272     8.9236        678    
+Esperar Pedido.Queue.WaitingTime            .05325     .01783     .00000     .70122        678    
+OcuparCajero.Queue.WaitingTime              1.4925     .43562     .00000     6.1893        680    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                5.2614     .74749     .00000     14.000     2.0000    
+rCajero.NumberBusy                          1.7039     (Insuf)    .00000     2.0000     2.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .85198     (Insuf)    .00000     1.0000     1.0000    
+rchef.NumberBusy                            1.3678     .07757     .00000     2.0000     .00000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .68394     .03879     .00000     1.0000     .00000    
+Esperar Pedido.Queue.NumberInQueue          .07522     .02523     .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            2.1143     .62584     .00000     10.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                   104  Infinite
+Contadortipo3                                   371  Infinite
+Contadortipo1                                   203  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           680.00    
+Entity 1.NumberOut                          678.00    
+rCajero.NumberSeized                        680.00    
+rCajero.ScheduledUtilization                .85198    
+rchef.NumberSeized                          678.00    
+rchef.ScheduledUtilization                  .68394    
+System.NumberOut                            678.00    
+
+Beginning replication 22 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 22 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .01207     .02616     .00000     1.0000        663    
+TiempoSistema                               234.72     (Corr)     .72868     476.85        663    
+TiempoEspera                                1.0929     .45114     .00000     6.3605        663    
+Entity 1.VATime                             2.1628     .04112     1.1223     2.9659        663    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        663    
+Entity 1.WaitTime                           1.0929     .45114     .00000     6.3605        663    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        663    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        663    
+Entity 1.TotalTime                          3.2558     (Corr)     1.1223     8.7980        663    
+Esperar Pedido.Queue.WaitingTime            .04295     (Corr)     .00000     .73216        664    
+OcuparCajero.Queue.WaitingTime              1.0483     .44223     .00000     6.1671        664    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                4.4991     (Corr)     .00000     15.000     1.0000    
+rCajero.NumberBusy                          1.6547     .11261     .00000     2.0000     .00000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .82735     .05630     .00000     1.0000     .00000    
+rchef.NumberBusy                            1.3347     .09838     .00000     2.0000     1.0000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .66737     .04919     .00000     1.0000     .50000    
+Esperar Pedido.Queue.NumberInQueue          .05942     (Insuf)    .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            1.4502     (Corr)     .00000     11.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                    97  Infinite
+Contadortipo3                                   369  Infinite
+Contadortipo1                                   197  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           664.00    
+Entity 1.NumberOut                          663.00    
+rCajero.NumberSeized                        664.00    
+rCajero.ScheduledUtilization                .82735    
+rchef.NumberSeized                          664.00    
+rchef.ScheduledUtilization                  .66737    
+System.NumberOut                            663.00    
+
+Beginning replication 23 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 23 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .10879     .10534     .00000     1.0000        717    
+TiempoSistema                               236.92     (Corr)     1.5949     477.24        717    
+TiempoEspera                                2.1204     .78908     .00000     11.202        717    
+Entity 1.VATime                             2.1549     .02163     1.2723     3.0993        717    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        717    
+Entity 1.WaitTime                           2.1204     .78908     .00000     11.202        717    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        717    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        717    
+Entity 1.TotalTime                          4.2753     .79352     1.2723     13.453        717    
+Esperar Pedido.Queue.WaitingTime            .05493     .01965     .00000     .75175        718    
+OcuparCajero.Queue.WaitingTime              2.0648     .77834     .00000     11.160        720    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                6.4089     (Corr)     .00000     24.000     4.0000    
+rCajero.NumberBusy                          1.7858     (Insuf)    .00000     2.0000     2.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .89294     (Insuf)    .00000     1.0000     1.0000    
+rchef.NumberBusy                            1.4418     .08450     .00000     2.0000     1.0000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .72091     .04225     .00000     1.0000     .50000    
+Esperar Pedido.Queue.NumberInQueue          .08217     .02882     .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            3.0990     (Corr)     .00000     19.000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                   116  Infinite
+Contadortipo3                                   389  Infinite
+Contadortipo1                                   212  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           721.00    
+Entity 1.NumberOut                          717.00    
+rCajero.NumberSeized                        720.00    
+rCajero.ScheduledUtilization                .89294    
+rchef.NumberSeized                          718.00    
+rchef.ScheduledUtilization                  .72091    
+System.NumberOut                            717.00    
+
+Beginning replication 24 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 24 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .08182     .08853     .00000     1.0000        660    
+TiempoSistema                               242.55     (Corr)     .87882     477.57        660    
+TiempoEspera                                1.5906     .80036     .00000     10.279        660    
+Entity 1.VATime                             2.1707     .02424     1.1171     3.0196        660    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        660    
+Entity 1.WaitTime                           1.5906     .80036     .00000     10.279        660    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        660    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        660    
+Entity 1.TotalTime                          3.7614     .81420     1.1859     12.958        660    
+Esperar Pedido.Queue.WaitingTime            .04604     .01876     .00000     .92503        661    
+OcuparCajero.Queue.WaitingTime              1.5386     .80141     .00000     10.279        663    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                5.1789     (Corr)     .00000     21.000     3.0000    
+rCajero.NumberBusy                          1.6449     .11244     .00000     2.0000     2.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .82247     .05622     .00000     1.0000     1.0000    
+rchef.NumberBusy                            1.3453     .09331     .00000     2.0000     1.0000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .67269     .04665     .00000     1.0000     .50000    
+Esperar Pedido.Queue.NumberInQueue          .06340     .02298     .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            2.1252     (Corr)     .00000     17.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                    96  Infinite
+Contadortipo3                                   378  Infinite
+Contadortipo1                                   186  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           663.00    
+Entity 1.NumberOut                          660.00    
+rCajero.NumberSeized                        663.00    
+rCajero.ScheduledUtilization                .82247    
+rchef.NumberSeized                          661.00    
+rchef.ScheduledUtilization                  .67269    
+System.NumberOut                            660.00    
+
+Beginning replication 25 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 25 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .05293     .06579     .00000     1.0000        699    
+TiempoSistema                               244.04     (Corr)     .49739     476.79        699    
+TiempoEspera                                1.6615     .56652     .00000     6.6305        699    
+Entity 1.VATime                             2.1740     .02494     1.1793     2.9221        699    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        699    
+Entity 1.WaitTime                           1.6615     .56652     .00000     6.6305        699    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        699    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        699    
+Entity 1.TotalTime                          3.8356     .57196     1.1793     8.8689        699    
+Esperar Pedido.Queue.WaitingTime            .05071     (Corr)     .00000     .71741        701    
+OcuparCajero.Queue.WaitingTime              1.6024     .56444     .00000     6.6305        703    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                5.5964     (Corr)     .00000     16.000     4.0000    
+rCajero.NumberBusy                          1.7548     (Insuf)    .00000     2.0000     2.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .87741     (Insuf)    .00000     1.0000     1.0000    
+rchef.NumberBusy                            1.4207     .08408     .00000     2.0000     2.0000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .71035     .04204     .00000     1.0000     1.0000    
+Esperar Pedido.Queue.NumberInQueue          .07405     .01944     .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            2.3469     (Corr)     .00000     12.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                   111  Infinite
+Contadortipo3                                   392  Infinite
+Contadortipo1                                   196  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           703.00    
+Entity 1.NumberOut                          699.00    
+rCajero.NumberSeized                        703.00    
+rCajero.ScheduledUtilization                .87741    
+rchef.NumberSeized                          701.00    
+rchef.ScheduledUtilization                  .71035    
+System.NumberOut                            699.00    
+
+Beginning replication 26 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 26 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .10811     .08349     .00000     1.0000        703    
+TiempoSistema                               237.37     (Corr)     .29911     477.10        703    
+TiempoEspera                                2.1426     (Corr)     .00000     8.2305        703    
+Entity 1.VATime                             2.1592     .03230     1.0716     2.9147        703    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        703    
+Entity 1.WaitTime                           2.1426     (Corr)     .00000     8.2305        703    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        703    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        703    
+Entity 1.TotalTime                          4.3018     (Corr)     1.2875     10.664        703    
+Esperar Pedido.Queue.WaitingTime            .04352     .01671     .00000     .74173        703    
+OcuparCajero.Queue.WaitingTime              2.0990     (Corr)     .00000     8.2305        703    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                6.3004     (Corr)     .00000     17.000     .00000    
+rCajero.NumberBusy                          1.7652     (Insuf)    .00000     2.0000     .00000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .88262     (Insuf)    .00000     1.0000     .00000    
+rchef.NumberBusy                            1.3971     (Corr)     .00000     2.0000     .00000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .69859     (Corr)     .00000     1.0000     .00000    
+Esperar Pedido.Queue.NumberInQueue          .06374     .02490     .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            3.0742     (Corr)     .00000     14.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                   101  Infinite
+Contadortipo3                                   374  Infinite
+Contadortipo1                                   228  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           703.00    
+Entity 1.NumberOut                          703.00    
+rCajero.NumberSeized                        703.00    
+rCajero.ScheduledUtilization                .88262    
+rchef.NumberSeized                          703.00    
+rchef.ScheduledUtilization                  .69859    
+System.NumberOut                            703.00    
+
+Beginning replication 27 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 27 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .01582     .02375     .00000     1.0000        632    
+TiempoSistema                               246.36     (Corr)     .12748     473.09        632    
+TiempoEspera                                1.0440     (Corr)     .00000     6.7773        632    
+Entity 1.VATime                             2.1526     .03023     1.2395     2.9448        632    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        632    
+Entity 1.WaitTime                           1.0440     (Corr)     .00000     6.7773        632    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        632    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        632    
+Entity 1.TotalTime                          3.1967     (Corr)     1.2395     9.2532        632    
+Esperar Pedido.Queue.WaitingTime            .04166     .01272     .00000     .63781        634    
+OcuparCajero.Queue.WaitingTime              1.0202     (Corr)     .00000     6.7773        636    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                4.2630     .78906     .00000     15.000     7.0000    
+rCajero.NumberBusy                          1.5912     .12228     .00000     2.0000     2.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .79564     .06114     .00000     1.0000     1.0000    
+rchef.NumberBusy                            1.2513     .09883     .00000     2.0000     2.0000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .62569     .04941     .00000     1.0000     1.0000    
+Esperar Pedido.Queue.NumberInQueue          .05503     (Insuf)    .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            1.3653     .60143     .00000     11.000     3.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                   105  Infinite
+Contadortipo3                                   325  Infinite
+Contadortipo1                                   202  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           639.00    
+Entity 1.NumberOut                          632.00    
+rCajero.NumberSeized                        636.00    
+rCajero.ScheduledUtilization                .79564    
+rchef.NumberSeized                          634.00    
+rchef.ScheduledUtilization                  .62569    
+System.NumberOut                            632.00    
+
+Beginning replication 28 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 28 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .10835     (Corr)     .00000     1.0000        683    
+TiempoSistema                               241.81     (Corr)     .34839     477.05        683    
+TiempoEspera                                1.9335     (Corr)     .00000     10.062        683    
+Entity 1.VATime                             2.1426     .03266     1.1860     3.0047        683    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        683    
+Entity 1.WaitTime                           1.9335     (Corr)     .00000     10.062        683    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        683    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        683    
+Entity 1.TotalTime                          4.0761     (Corr)     1.2502     12.002        683    
+Esperar Pedido.Queue.WaitingTime            .04665     .01655     .00000     .74227        684    
+OcuparCajero.Queue.WaitingTime              1.8796     (Corr)     .00000     10.062        686    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                5.8066     (Corr)     .00000     21.000     3.0000    
+rCajero.NumberBusy                          1.7059     (Insuf)    .00000     2.0000     2.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .85299     (Insuf)    .00000     1.0000     1.0000    
+rchef.NumberBusy                            1.3479     .07850     .00000     2.0000     1.0000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .67395     .03925     .00000     1.0000     .50000    
+Esperar Pedido.Queue.NumberInQueue          .06648     (Insuf)    .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            2.6863     (Corr)     .00000     17.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                   100  Infinite
+Contadortipo3                                   366  Infinite
+Contadortipo1                                   217  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           686.00    
+Entity 1.NumberOut                          683.00    
+rCajero.NumberSeized                        686.00    
+rCajero.ScheduledUtilization                .85299    
+rchef.NumberSeized                          684.00    
+rchef.ScheduledUtilization                  .67395    
+System.NumberOut                            683.00    
+
+Beginning replication 29 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 29 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .25926     (Corr)     .00000     1.0000        729    
+TiempoSistema                               237.03     (Corr)     .66559     471.28        729    
+TiempoEspera                                3.2802     (Corr)     .00000     14.282        729    
+Entity 1.VATime                             2.1443     (Corr)     1.1578     2.9400        729    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        729    
+Entity 1.WaitTime                           3.2802     (Corr)     .00000     14.282        729    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        729    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        729    
+Entity 1.TotalTime                          5.4245     (Corr)     1.3082     16.799        729    
+Esperar Pedido.Queue.WaitingTime            .04108     .00784     .00000     .64109        731    
+OcuparCajero.Queue.WaitingTime              3.2591     (Corr)     .00000     14.282        733    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                8.3550     (Corr)     .00000     28.000     11.000    
+rCajero.NumberBusy                          1.8277     (Insuf)    .00000     2.0000     2.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .91388     (Insuf)    .00000     1.0000     1.0000    
+rchef.NumberBusy                            1.4374     .06200     .00000     2.0000     2.0000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .71873     .03100     .00000     1.0000     1.0000    
+Esperar Pedido.Queue.NumberInQueue          .06256     .01298     .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            5.0272     (Corr)     .00000     25.000     7.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                   111  Infinite
+Contadortipo3                                   372  Infinite
+Contadortipo1                                   246  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           740.00    
+Entity 1.NumberOut                          729.00    
+rCajero.NumberSeized                        733.00    
+rCajero.ScheduledUtilization                .91388    
+rchef.NumberSeized                          731.00    
+rchef.ScheduledUtilization                  .71873    
+System.NumberOut                            729.00    
+
+Beginning replication 30 of 30
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 30 of 30
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Probabilidadmayor5                          .00148     .00310     .00000     1.0000        675    
+TiempoSistema                               239.90     (Corr)     1.1496     475.94        675    
+TiempoEspera                                .92331     .18583     .00000     5.1731        675    
+Entity 1.VATime                             2.1849     .03668     1.1843     2.9091        675    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        675    
+Entity 1.WaitTime                           .92331     .18583     .00000     5.1731        675    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        675    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        675    
+Entity 1.TotalTime                          3.1082     .18727     1.3600     7.5602        675    
+Esperar Pedido.Queue.WaitingTime            .04884     .01557     .00000     .69570        677    
+OcuparCajero.Queue.WaitingTime              .87434     .17985     .00000     4.9982        679    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                4.3912     .45125     .00000     12.000     7.0000    
+rCajero.NumberBusy                          1.6905     .07715     .00000     2.0000     2.0000    
+rCajero.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rCajero.Utilization                         .84529     .03858     .00000     1.0000     1.0000    
+rchef.NumberBusy                            1.3906     .06964     .00000     2.0000     2.0000    
+rchef.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+rchef.Utilization                           .69534     .03482     .00000     1.0000     1.0000    
+Esperar Pedido.Queue.NumberInQueue          .06888     .02055     .00000     2.0000     .00000    
+OcuparCajero.Queue.NumberInQueue            1.2411     (Corr)     .00000     9.0000     3.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contadortipo2                                    94  Infinite
+Contadortipo3                                   388  Infinite
+Contadortipo1                                   193  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           682.00    
+Entity 1.NumberOut                          675.00    
+rCajero.NumberSeized                        679.00    
+rCajero.ScheduledUtilization                .84529    
+rchef.NumberSeized                          677.00    
+rchef.ScheduledUtilization                  .69534    
+System.NumberOut                            675.00    
+
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                 Output Summary for 30 Replications
+
+Project: Unnamed Project                                             Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Entity 1.NumberIn                           684.23     9.1632     639.00     740.00     30
+Entity 1.NumberOut                          679.23     9.1726     632.00     729.00     30
+rCajero.NumberSeized                        682.33     9.0617     636.00     733.00     30
+rCajero.ScheduledUtilization                .85304     .01111     .79564     .91388     30
+rchef.NumberSeized                          680.60     9.0999     634.00     731.00     30
+rchef.ScheduledUtilization                  .68195     .00949     .62569     .72091     30
+System.NumberOut                            679.23     9.1726     632.00     729.00     30
+
+Simulation run time: 0.12 minutes.
+Simulation run complete.

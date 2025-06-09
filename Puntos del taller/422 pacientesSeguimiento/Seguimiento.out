@@ -1,0 +1,1729 @@
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 1 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity                  --         --         --         --          0
+TiempoSistema                               18.886     (Insuf)    18.324     19.430          3    
+Seguimiemto.WaitTimePerEntity                   --         --         --         --          0
+Seguimiemto.VATimePerEntity                     --         --         --         --          0
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000          3    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          3    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000          3    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          3    
+Entity 1.OtherTime                          18.886     (Insuf)    18.324     19.430          3    
+Entity 1.TotalTime                          18.886     (Insuf)    18.324     19.430          3    
+Ocupar enfermea.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          3    
+Seguimiemto.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .09443     (Insuf)    .00000     1.0000     .00000    
+rSeguimiento.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberBusy                       .09443     (Insuf)    .00000     1.0000     .00000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .03148     (Insuf)    .00000     .33333     .00000    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   .00000    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      .00000    
+Seguimiemto Number In                       .00000    
+Entity 1.NumberIn                           3.0000    
+Entity 1.NumberOut                          3.0000    
+rSeguimiento.NumberSeized                   .00000    
+rSeguimiento.ScheduledUtilization           .00000    
+rEnfermera.NumberSeized                     3.0000    
+rEnfermera.ScheduledUtilization             .03148    
+System.NumberOut                            3.0000    
+
+Beginning replication 2 of 27
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 2 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity                  --         --         --         --          0
+TiempoSistema                               17.738     (Insuf)    17.493     17.982          2    
+Seguimiemto.WaitTimePerEntity                   --         --         --         --          0
+Seguimiemto.VATimePerEntity                     --         --         --         --          0
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000          2    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          2    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000          2    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          2    
+Entity 1.OtherTime                          17.738     (Insuf)    17.493     17.982          2    
+Entity 1.TotalTime                          17.738     (Insuf)    17.493     17.982          2    
+Ocupar enfermea.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          2    
+Seguimiemto.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .05913     (Insuf)    .00000     1.0000     .00000    
+rSeguimiento.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberBusy                       .05913     (Insuf)    .00000     1.0000     .00000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .01971     (Insuf)    .00000     .33333     .00000    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   .00000    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      .00000    
+Seguimiemto Number In                       .00000    
+Entity 1.NumberIn                           2.0000    
+Entity 1.NumberOut                          2.0000    
+rSeguimiento.NumberSeized                   .00000    
+rSeguimiento.ScheduledUtilization           .00000    
+rEnfermera.NumberSeized                     2.0000    
+rEnfermera.ScheduledUtilization             .01971    
+System.NumberOut                            2.0000    
+
+Beginning replication 3 of 27
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 3 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity                  --         --         --         --          0
+TiempoSistema                               17.523     (Insuf)    17.523     17.523          1    
+Seguimiemto.WaitTimePerEntity                   --         --         --         --          0
+Seguimiemto.VATimePerEntity                     --         --         --         --          0
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000          1    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          1    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.OtherTime                          17.523     (Insuf)    17.523     17.523          1    
+Entity 1.TotalTime                          17.523     (Insuf)    17.523     17.523          1    
+Ocupar enfermea.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          1    
+Seguimiemto.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .02921     (Insuf)    .00000     1.0000     .00000    
+rSeguimiento.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberBusy                       .02921     (Insuf)    .00000     1.0000     .00000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .00974     (Insuf)    .00000     .33333     .00000    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   .00000    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      .00000    
+Seguimiemto Number In                       .00000    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+rSeguimiento.NumberSeized                   .00000    
+rSeguimiento.ScheduledUtilization           .00000    
+rEnfermera.NumberSeized                     1.0000    
+rEnfermera.ScheduledUtilization             .00974    
+System.NumberOut                            1.0000    
+
+Beginning replication 4 of 27
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 4 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity              2.5692     (Insuf)    2.5692     2.5692          1    
+TiempoSistema                               19.176     (Insuf)    17.299     21.300          3    
+Seguimiemto.WaitTimePerEntity               .00000     (Insuf)    .00000     .00000          1    
+Seguimiemto.VATimePerEntity                 2.5692     (Insuf)    2.5692     2.5692          1    
+Entity 1.VATime                             .85642     (Insuf)    .00000     2.5692          3    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          3    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000          3    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          3    
+Entity 1.OtherTime                          18.319     (Insuf)    17.299     18.928          3    
+Entity 1.TotalTime                          19.176     (Insuf)    17.299     21.300          3    
+Ocupar enfermea.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          3    
+Seguimiemto.Queue.WaitingTime               .00000     (Insuf)    .00000     .00000          1    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .09588     (Insuf)    .00000     2.0000     .00000    
+rSeguimiento.NumberBusy                     .00428     (Insuf)    .00000     1.0000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00428     (Insuf)    .00000     1.0000     .00000    
+rEnfermera.NumberBusy                       .09160     (Insuf)    .00000     2.0000     .00000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .03053     (Insuf)    .00000     .66667     .00000    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   2.5692    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      1.0000    
+Seguimiemto Number In                       1.0000    
+Entity 1.NumberIn                           3.0000    
+Entity 1.NumberOut                          3.0000    
+rSeguimiento.NumberSeized                   1.0000    
+rSeguimiento.ScheduledUtilization           .00428    
+rEnfermera.NumberSeized                     3.0000    
+rEnfermera.ScheduledUtilization             .03053    
+System.NumberOut                            3.0000    
+
+Beginning replication 5 of 27
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 5 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity                  --         --         --         --          0
+TiempoSistema                                   --         --         --         --          0
+Seguimiemto.WaitTimePerEntity                   --         --         --         --          0
+Seguimiemto.VATimePerEntity                     --         --         --         --          0
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+Ocupar enfermea.Queue.WaitingTime               --         --         --         --          0
+Seguimiemto.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   .00000    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      .00000    
+Seguimiemto Number In                       .00000    
+Entity 1.NumberIn                           .00000    
+Entity 1.NumberOut                          .00000    
+rSeguimiento.NumberSeized                   .00000    
+rSeguimiento.ScheduledUtilization           .00000    
+rEnfermera.NumberSeized                     .00000    
+rEnfermera.ScheduledUtilization             .00000    
+System.NumberOut                            .00000    
+
+Beginning replication 6 of 27
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 6 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity                  --         --         --         --          0
+TiempoSistema                                   --         --         --         --          0
+Seguimiemto.WaitTimePerEntity                   --         --         --         --          0
+Seguimiemto.VATimePerEntity                     --         --         --         --          0
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+Ocupar enfermea.Queue.WaitingTime               --         --         --         --          0
+Seguimiemto.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   .00000    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      .00000    
+Seguimiemto Number In                       .00000    
+Entity 1.NumberIn                           .00000    
+Entity 1.NumberOut                          .00000    
+rSeguimiento.NumberSeized                   .00000    
+rSeguimiento.ScheduledUtilization           .00000    
+rEnfermera.NumberSeized                     .00000    
+rEnfermera.ScheduledUtilization             .00000    
+System.NumberOut                            .00000    
+
+Beginning replication 7 of 27
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 7 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity                  --         --         --         --          0
+TiempoSistema                               16.872     (Insuf)    16.872     16.872          1    
+Seguimiemto.WaitTimePerEntity                   --         --         --         --          0
+Seguimiemto.VATimePerEntity                     --         --         --         --          0
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000          1    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          1    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.OtherTime                          16.872     (Insuf)    16.872     16.872          1    
+Entity 1.TotalTime                          16.872     (Insuf)    16.872     16.872          1    
+Ocupar enfermea.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          1    
+Seguimiemto.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .02812     (Insuf)    .00000     1.0000     .00000    
+rSeguimiento.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberBusy                       .02812     (Insuf)    .00000     1.0000     .00000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .00937     (Insuf)    .00000     .33333     .00000    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   .00000    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      .00000    
+Seguimiemto Number In                       .00000    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+rSeguimiento.NumberSeized                   .00000    
+rSeguimiento.ScheduledUtilization           .00000    
+rEnfermera.NumberSeized                     1.0000    
+rEnfermera.ScheduledUtilization             .00937    
+System.NumberOut                            1.0000    
+
+Beginning replication 8 of 27
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 8 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity                  --         --         --         --          0
+TiempoSistema                               16.673     (Insuf)    16.673     16.673          1    
+Seguimiemto.WaitTimePerEntity                   --         --         --         --          0
+Seguimiemto.VATimePerEntity                     --         --         --         --          0
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000          1    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          1    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.OtherTime                          16.673     (Insuf)    16.673     16.673          1    
+Entity 1.TotalTime                          16.673     (Insuf)    16.673     16.673          1    
+Ocupar enfermea.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          1    
+Seguimiemto.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .02779     (Insuf)    .00000     1.0000     .00000    
+rSeguimiento.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberBusy                       .02779     (Insuf)    .00000     1.0000     .00000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .00926     (Insuf)    .00000     .33333     .00000    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   .00000    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      .00000    
+Seguimiemto Number In                       .00000    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+rSeguimiento.NumberSeized                   .00000    
+rSeguimiento.ScheduledUtilization           .00000    
+rEnfermera.NumberSeized                     1.0000    
+rEnfermera.ScheduledUtilization             .00926    
+System.NumberOut                            1.0000    
+
+Beginning replication 9 of 27
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 9 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity                  --         --         --         --          0
+TiempoSistema                                   --         --         --         --          0
+Seguimiemto.WaitTimePerEntity                   --         --         --         --          0
+Seguimiemto.VATimePerEntity                     --         --         --         --          0
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+Ocupar enfermea.Queue.WaitingTime               --         --         --         --          0
+Seguimiemto.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   .00000    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      .00000    
+Seguimiemto Number In                       .00000    
+Entity 1.NumberIn                           .00000    
+Entity 1.NumberOut                          .00000    
+rSeguimiento.NumberSeized                   .00000    
+rSeguimiento.ScheduledUtilization           .00000    
+rEnfermera.NumberSeized                     .00000    
+rEnfermera.ScheduledUtilization             .00000    
+System.NumberOut                            .00000    
+
+Beginning replication 10 of 27
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 10 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity                  --         --         --         --          0
+TiempoSistema                               18.979     (Insuf)    18.341     19.617          2    
+Seguimiemto.WaitTimePerEntity                   --         --         --         --          0
+Seguimiemto.VATimePerEntity                     --         --         --         --          0
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000          2    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          2    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000          2    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          2    
+Entity 1.OtherTime                          18.979     (Insuf)    18.341     19.617          2    
+Entity 1.TotalTime                          18.979     (Insuf)    18.341     19.617          2    
+Ocupar enfermea.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          2    
+Seguimiemto.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .06326     (Insuf)    .00000     1.0000     .00000    
+rSeguimiento.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberBusy                       .06326     (Insuf)    .00000     1.0000     .00000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .02109     (Insuf)    .00000     .33333     .00000    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   .00000    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      .00000    
+Seguimiemto Number In                       .00000    
+Entity 1.NumberIn                           2.0000    
+Entity 1.NumberOut                          2.0000    
+rSeguimiento.NumberSeized                   .00000    
+rSeguimiento.ScheduledUtilization           .00000    
+rEnfermera.NumberSeized                     2.0000    
+rEnfermera.ScheduledUtilization             .02109    
+System.NumberOut                            2.0000    
+
+Beginning replication 11 of 27
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 11 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity                  --         --         --         --          0
+TiempoSistema                               16.693     (Insuf)    16.693     16.693          1    
+Seguimiemto.WaitTimePerEntity                   --         --         --         --          0
+Seguimiemto.VATimePerEntity                     --         --         --         --          0
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000          1    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          1    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.OtherTime                          16.693     (Insuf)    16.693     16.693          1    
+Entity 1.TotalTime                          16.693     (Insuf)    16.693     16.693          1    
+Ocupar enfermea.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          1    
+Seguimiemto.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .02782     (Insuf)    .00000     1.0000     .00000    
+rSeguimiento.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberBusy                       .02782     (Insuf)    .00000     1.0000     .00000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .00927     (Insuf)    .00000     .33333     .00000    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   .00000    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      .00000    
+Seguimiemto Number In                       .00000    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+rSeguimiento.NumberSeized                   .00000    
+rSeguimiento.ScheduledUtilization           .00000    
+rEnfermera.NumberSeized                     1.0000    
+rEnfermera.ScheduledUtilization             .00927    
+System.NumberOut                            1.0000    
+
+Beginning replication 12 of 27
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 12 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity                  --         --         --         --          0
+TiempoSistema                               18.169     (Insuf)    18.169     18.169          1    
+Seguimiemto.WaitTimePerEntity                   --         --         --         --          0
+Seguimiemto.VATimePerEntity                     --         --         --         --          0
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000          1    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          1    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.OtherTime                          18.169     (Insuf)    18.169     18.169          1    
+Entity 1.TotalTime                          18.169     (Insuf)    18.169     18.169          1    
+Ocupar enfermea.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          1    
+Seguimiemto.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .03028     (Insuf)    .00000     1.0000     .00000    
+rSeguimiento.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberBusy                       .03028     (Insuf)    .00000     1.0000     .00000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .01009     (Insuf)    .00000     .33333     .00000    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   .00000    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      .00000    
+Seguimiemto Number In                       .00000    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+rSeguimiento.NumberSeized                   .00000    
+rSeguimiento.ScheduledUtilization           .00000    
+rEnfermera.NumberSeized                     1.0000    
+rEnfermera.ScheduledUtilization             .01009    
+System.NumberOut                            1.0000    
+
+Beginning replication 13 of 27
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 13 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity                  --         --         --         --          0
+TiempoSistema                               18.661     (Insuf)    18.591     18.731          2    
+Seguimiemto.WaitTimePerEntity                   --         --         --         --          0
+Seguimiemto.VATimePerEntity                     --         --         --         --          0
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000          2    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          2    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000          2    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          2    
+Entity 1.OtherTime                          18.661     (Insuf)    18.591     18.731          2    
+Entity 1.TotalTime                          18.661     (Insuf)    18.591     18.731          2    
+Ocupar enfermea.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          2    
+Seguimiemto.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .06220     (Insuf)    .00000     1.0000     .00000    
+rSeguimiento.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberBusy                       .06220     (Insuf)    .00000     1.0000     .00000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .02073     (Insuf)    .00000     .33333     .00000    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   .00000    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      .00000    
+Seguimiemto Number In                       .00000    
+Entity 1.NumberIn                           2.0000    
+Entity 1.NumberOut                          2.0000    
+rSeguimiento.NumberSeized                   .00000    
+rSeguimiento.ScheduledUtilization           .00000    
+rEnfermera.NumberSeized                     2.0000    
+rEnfermera.ScheduledUtilization             .02073    
+System.NumberOut                            2.0000    
+
+Beginning replication 14 of 27
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 14 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity                  --         --         --         --          0
+TiempoSistema                               17.067     (Insuf)    17.067     17.067          1    
+Seguimiemto.WaitTimePerEntity                   --         --         --         --          0
+Seguimiemto.VATimePerEntity                     --         --         --         --          0
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000          1    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          1    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.OtherTime                          17.067     (Insuf)    17.067     17.067          1    
+Entity 1.TotalTime                          17.067     (Insuf)    17.067     17.067          1    
+Ocupar enfermea.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          1    
+Seguimiemto.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .02845     (Insuf)    .00000     1.0000     .00000    
+rSeguimiento.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberBusy                       .02845     (Insuf)    .00000     1.0000     .00000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .00948     (Insuf)    .00000     .33333     .00000    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   .00000    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      .00000    
+Seguimiemto Number In                       .00000    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+rSeguimiento.NumberSeized                   .00000    
+rSeguimiento.ScheduledUtilization           .00000    
+rEnfermera.NumberSeized                     1.0000    
+rEnfermera.ScheduledUtilization             .00948    
+System.NumberOut                            1.0000    
+
+Beginning replication 15 of 27
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 15 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity                  --         --         --         --          0
+TiempoSistema                               17.311     (Insuf)    17.311     17.311          1    
+Seguimiemto.WaitTimePerEntity                   --         --         --         --          0
+Seguimiemto.VATimePerEntity                     --         --         --         --          0
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000          1    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          1    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.OtherTime                          17.311     (Insuf)    17.311     17.311          1    
+Entity 1.TotalTime                          17.311     (Insuf)    17.311     17.311          1    
+Ocupar enfermea.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          1    
+Seguimiemto.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .02885     (Insuf)    .00000     1.0000     .00000    
+rSeguimiento.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberBusy                       .02885     (Insuf)    .00000     1.0000     .00000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .00962     (Insuf)    .00000     .33333     .00000    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   .00000    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      .00000    
+Seguimiemto Number In                       .00000    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+rSeguimiento.NumberSeized                   .00000    
+rSeguimiento.ScheduledUtilization           .00000    
+rEnfermera.NumberSeized                     1.0000    
+rEnfermera.ScheduledUtilization             .00962    
+System.NumberOut                            1.0000    
+
+Beginning replication 16 of 27
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 16 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity                  --         --         --         --          0
+TiempoSistema                                   --         --         --         --          0
+Seguimiemto.WaitTimePerEntity                   --         --         --         --          0
+Seguimiemto.VATimePerEntity                     --         --         --         --          0
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+Ocupar enfermea.Queue.WaitingTime               --         --         --         --          0
+Seguimiemto.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   .00000    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      .00000    
+Seguimiemto Number In                       .00000    
+Entity 1.NumberIn                           .00000    
+Entity 1.NumberOut                          .00000    
+rSeguimiento.NumberSeized                   .00000    
+rSeguimiento.ScheduledUtilization           .00000    
+rEnfermera.NumberSeized                     .00000    
+rEnfermera.ScheduledUtilization             .00000    
+System.NumberOut                            .00000    
+
+Beginning replication 17 of 27
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 17 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity                  --         --         --         --          0
+TiempoSistema                               17.761     (Insuf)    17.761     17.761          1    
+Seguimiemto.WaitTimePerEntity                   --         --         --         --          0
+Seguimiemto.VATimePerEntity                     --         --         --         --          0
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000          1    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          1    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.OtherTime                          17.761     (Insuf)    17.761     17.761          1    
+Entity 1.TotalTime                          17.761     (Insuf)    17.761     17.761          1    
+Ocupar enfermea.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          1    
+Seguimiemto.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .02960     (Insuf)    .00000     1.0000     .00000    
+rSeguimiento.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberBusy                       .02960     (Insuf)    .00000     1.0000     .00000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .00987     (Insuf)    .00000     .33333     .00000    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   .00000    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      .00000    
+Seguimiemto Number In                       .00000    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+rSeguimiento.NumberSeized                   .00000    
+rSeguimiento.ScheduledUtilization           .00000    
+rEnfermera.NumberSeized                     1.0000    
+rEnfermera.ScheduledUtilization             .00987    
+System.NumberOut                            1.0000    
+
+Beginning replication 18 of 27
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 18 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity                  --         --         --         --          0
+TiempoSistema                               17.456     (Insuf)    17.456     17.456          1    
+Seguimiemto.WaitTimePerEntity                   --         --         --         --          0
+Seguimiemto.VATimePerEntity                     --         --         --         --          0
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000          1    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          1    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.OtherTime                          17.456     (Insuf)    17.456     17.456          1    
+Entity 1.TotalTime                          17.456     (Insuf)    17.456     17.456          1    
+Ocupar enfermea.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          1    
+Seguimiemto.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .02909     (Insuf)    .00000     1.0000     .00000    
+rSeguimiento.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberBusy                       .02909     (Insuf)    .00000     1.0000     .00000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .00970     (Insuf)    .00000     .33333     .00000    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   .00000    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      .00000    
+Seguimiemto Number In                       .00000    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+rSeguimiento.NumberSeized                   .00000    
+rSeguimiento.ScheduledUtilization           .00000    
+rEnfermera.NumberSeized                     1.0000    
+rEnfermera.ScheduledUtilization             .00970    
+System.NumberOut                            1.0000    
+
+Beginning replication 19 of 27
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 19 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity                  --         --         --         --          0
+TiempoSistema                               16.950     (Insuf)    16.950     16.950          1    
+Seguimiemto.WaitTimePerEntity                   --         --         --         --          0
+Seguimiemto.VATimePerEntity                     --         --         --         --          0
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000          1    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          1    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.OtherTime                          16.950     (Insuf)    16.950     16.950          1    
+Entity 1.TotalTime                          16.950     (Insuf)    16.950     16.950          1    
+Ocupar enfermea.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          2    
+Seguimiemto.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .04439     (Insuf)    .00000     1.0000     1.0000    
+rSeguimiento.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberBusy                       .04439     (Insuf)    .00000     1.0000     1.0000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .01480     (Insuf)    .00000     .33333     .33333    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   .00000    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      .00000    
+Seguimiemto Number In                       .00000    
+Entity 1.NumberIn                           2.0000    
+Entity 1.NumberOut                          1.0000    
+rSeguimiento.NumberSeized                   .00000    
+rSeguimiento.ScheduledUtilization           .00000    
+rEnfermera.NumberSeized                     2.0000    
+rEnfermera.ScheduledUtilization             .01480    
+System.NumberOut                            1.0000    
+
+Beginning replication 20 of 27
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 20 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity                  --         --         --         --          0
+TiempoSistema                               17.079     (Insuf)    17.079     17.079          1    
+Seguimiemto.WaitTimePerEntity                   --         --         --         --          0
+Seguimiemto.VATimePerEntity                     --         --         --         --          0
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000          1    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          1    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.OtherTime                          17.079     (Insuf)    17.079     17.079          1    
+Entity 1.TotalTime                          17.079     (Insuf)    17.079     17.079          1    
+Ocupar enfermea.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          1    
+Seguimiemto.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .02847     (Insuf)    .00000     1.0000     .00000    
+rSeguimiento.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberBusy                       .02847     (Insuf)    .00000     1.0000     .00000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .00949     (Insuf)    .00000     .33333     .00000    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   .00000    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      .00000    
+Seguimiemto Number In                       .00000    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+rSeguimiento.NumberSeized                   .00000    
+rSeguimiento.ScheduledUtilization           .00000    
+rEnfermera.NumberSeized                     1.0000    
+rEnfermera.ScheduledUtilization             .00949    
+System.NumberOut                            1.0000    
+
+Beginning replication 21 of 27
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 21 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity                  --         --         --         --          0
+TiempoSistema                               16.575     (Insuf)    16.575     16.575          1    
+Seguimiemto.WaitTimePerEntity                   --         --         --         --          0
+Seguimiemto.VATimePerEntity                     --         --         --         --          0
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000          1    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          1    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.OtherTime                          16.575     (Insuf)    16.575     16.575          1    
+Entity 1.TotalTime                          16.575     (Insuf)    16.575     16.575          1    
+Ocupar enfermea.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          1    
+Seguimiemto.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .02763     (Insuf)    .00000     1.0000     .00000    
+rSeguimiento.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberBusy                       .02763     (Insuf)    .00000     1.0000     .00000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .00921     (Insuf)    .00000     .33333     .00000    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   .00000    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      .00000    
+Seguimiemto Number In                       .00000    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+rSeguimiento.NumberSeized                   .00000    
+rSeguimiento.ScheduledUtilization           .00000    
+rEnfermera.NumberSeized                     1.0000    
+rEnfermera.ScheduledUtilization             .00921    
+System.NumberOut                            1.0000    
+
+Beginning replication 22 of 27
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 22 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity                  --         --         --         --          0
+TiempoSistema                                   --         --         --         --          0
+Seguimiemto.WaitTimePerEntity                   --         --         --         --          0
+Seguimiemto.VATimePerEntity                     --         --         --         --          0
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+Ocupar enfermea.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          1    
+Seguimiemto.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .01108     (Insuf)    .00000     1.0000     1.0000    
+rSeguimiento.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberBusy                       .01108     (Insuf)    .00000     1.0000     1.0000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .00369     (Insuf)    .00000     .33333     .33333    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   .00000    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      .00000    
+Seguimiemto Number In                       .00000    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          .00000    
+rSeguimiento.NumberSeized                   .00000    
+rSeguimiento.ScheduledUtilization           .00000    
+rEnfermera.NumberSeized                     1.0000    
+rEnfermera.ScheduledUtilization             .00369    
+System.NumberOut                            .00000    
+
+Beginning replication 23 of 27
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 23 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity                  --         --         --         --          0
+TiempoSistema                                   --         --         --         --          0
+Seguimiemto.WaitTimePerEntity                   --         --         --         --          0
+Seguimiemto.VATimePerEntity                     --         --         --         --          0
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+Ocupar enfermea.Queue.WaitingTime               --         --         --         --          0
+Seguimiemto.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   .00000    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      .00000    
+Seguimiemto Number In                       .00000    
+Entity 1.NumberIn                           .00000    
+Entity 1.NumberOut                          .00000    
+rSeguimiento.NumberSeized                   .00000    
+rSeguimiento.ScheduledUtilization           .00000    
+rEnfermera.NumberSeized                     .00000    
+rEnfermera.ScheduledUtilization             .00000    
+System.NumberOut                            .00000    
+
+Beginning replication 24 of 27
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 24 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity                  --         --         --         --          0
+TiempoSistema                                   --         --         --         --          0
+Seguimiemto.WaitTimePerEntity                   --         --         --         --          0
+Seguimiemto.VATimePerEntity                     --         --         --         --          0
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+Ocupar enfermea.Queue.WaitingTime               --         --         --         --          0
+Seguimiemto.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   .00000    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      .00000    
+Seguimiemto Number In                       .00000    
+Entity 1.NumberIn                           .00000    
+Entity 1.NumberOut                          .00000    
+rSeguimiento.NumberSeized                   .00000    
+rSeguimiento.ScheduledUtilization           .00000    
+rEnfermera.NumberSeized                     .00000    
+rEnfermera.ScheduledUtilization             .00000    
+System.NumberOut                            .00000    
+
+Beginning replication 25 of 27
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 25 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity                  --         --         --         --          0
+TiempoSistema                               18.270     (Insuf)    17.733     18.564          4    
+Seguimiemto.WaitTimePerEntity                   --         --         --         --          0
+Seguimiemto.VATimePerEntity                     --         --         --         --          0
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000          4    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          4    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000          4    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          4    
+Entity 1.OtherTime                          18.270     (Insuf)    17.733     18.564          4    
+Entity 1.TotalTime                          18.270     (Insuf)    17.733     18.564          4    
+Ocupar enfermea.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          5    
+Seguimiemto.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .12872     (Insuf)    .00000     2.0000     1.0000    
+rSeguimiento.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberBusy                       .12872     (Insuf)    .00000     2.0000     1.0000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .04291     (Insuf)    .00000     .66667     .33333    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   .00000    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      .00000    
+Seguimiemto Number In                       .00000    
+Entity 1.NumberIn                           5.0000    
+Entity 1.NumberOut                          4.0000    
+rSeguimiento.NumberSeized                   .00000    
+rSeguimiento.ScheduledUtilization           .00000    
+rEnfermera.NumberSeized                     5.0000    
+rEnfermera.ScheduledUtilization             .04291    
+System.NumberOut                            4.0000    
+
+Beginning replication 26 of 27
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 26 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity                  --         --         --         --          0
+TiempoSistema                               17.814     (Insuf)    17.546     18.206          3    
+Seguimiemto.WaitTimePerEntity                   --         --         --         --          0
+Seguimiemto.VATimePerEntity                     --         --         --         --          0
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000          3    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          3    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000          3    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          3    
+Entity 1.OtherTime                          17.814     (Insuf)    17.546     18.206          3    
+Entity 1.TotalTime                          17.814     (Insuf)    17.546     18.206          3    
+Ocupar enfermea.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          3    
+Seguimiemto.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .08907     (Insuf)    .00000     1.0000     .00000    
+rSeguimiento.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberBusy                       .08907     (Insuf)    .00000     1.0000     .00000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .02969     (Insuf)    .00000     .33333     .00000    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   .00000    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      .00000    
+Seguimiemto Number In                       .00000    
+Entity 1.NumberIn                           3.0000    
+Entity 1.NumberOut                          3.0000    
+rSeguimiento.NumberSeized                   .00000    
+rSeguimiento.ScheduledUtilization           .00000    
+rEnfermera.NumberSeized                     3.0000    
+rEnfermera.ScheduledUtilization             .02969    
+System.NumberOut                            3.0000    
+
+Beginning replication 27 of 27
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 27 of 27
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Seguimiemto.TotalTimePerEntity                  --         --         --         --          0
+TiempoSistema                               18.565     (Insuf)    18.565     18.565          1    
+Seguimiemto.WaitTimePerEntity                   --         --         --         --          0
+Seguimiemto.VATimePerEntity                     --         --         --         --          0
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000          1    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          1    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.OtherTime                          18.565     (Insuf)    18.565     18.565          1    
+Entity 1.TotalTime                          18.565     (Insuf)    18.565     18.565          1    
+Ocupar enfermea.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          1    
+Seguimiemto.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .03094     (Insuf)    .00000     1.0000     .00000    
+rSeguimiento.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+rSeguimiento.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rSeguimiento.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
+rEnfermera.NumberBusy                       .03094     (Insuf)    .00000     1.0000     .00000    
+rEnfermera.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+rEnfermera.Utilization                      .01031     (Insuf)    .00000     .33333     .00000    
+Ocupar enfermea.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Seguimiemto.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Seguimiemto Accum VA Time                   .00000    
+Seguimiemto Accum Wait Time                 .00000    
+Seguimiemto Number Out                      .00000    
+Seguimiemto Number In                       .00000    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+rSeguimiento.NumberSeized                   .00000    
+rSeguimiento.ScheduledUtilization           .00000    
+rEnfermera.NumberSeized                     1.0000    
+rEnfermera.ScheduledUtilization             .01031    
+System.NumberOut                            1.0000    
+
+
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                 Output Summary for 27 Replications
+
+Project: Escenario A                                                 Run execution date : 5/22/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/22/2025
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Seguimiemto Accum VA Time                   .09516     .19564     .00000     2.5692     27
+Seguimiemto Accum Wait Time                 .00000     .00000     .00000     .00000     27
+Seguimiemto Number Out                      .03704     .07615     .00000     1.0000     27
+Seguimiemto Number In                       .03704     .07615     .00000     1.0000     27
+Entity 1.NumberIn                           1.2963     .46319     .00000     5.0000     27
+Entity 1.NumberOut                          1.1851     .42555     .00000     4.0000     27
+rSeguimiento.NumberSeized                   .03704     .07615     .00000     1.0000     27
+rSeguimiento.ScheduledUtilization            1.5860E-4  3.2607E-4 .00000     .00428     27
+rEnfermera.NumberSeized                     1.2963     .46319     .00000     5.0000     27
+rEnfermera.ScheduledUtilization             .01222     .00440     .00000     .04291     27
+System.NumberOut                            1.1851     .42555     .00000     4.0000     27
+
+Simulation run time: 0.20 minutes.
+Simulation run complete.

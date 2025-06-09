@@ -1,0 +1,160 @@
+
+----------------------------------------------------------------------
+19114:GGTAEC
+A runtime error was detected at time 1037.4427 at the following block:
+
+ *    4 3$              DUPLICATE,100-50:1,27$,50:NEXT(26$);
+
+Maximum of 150 entities exceeded.
+Possible causes:
+- A logic problem in your model is creating too many entities or not
+  disposing them. The run controller may be helpful in finding the problem.
+- You are in demo mode and have exceeded the entity limit. The commercial
+  version is required to run large models.
+- You have set an entity limit on the DISCRETE element that is too small.
+  Remove the limit or set it to a larger number.
+- You have exceeded the standard array s 
+pace for models. Use the Array Sizes
+  page in the Run/Setup dialog to increase the RSET space allocated and
+  recheck your model.
+----------------------------------------------------------------------
+
+
+SIMAN Run Controller.
+
+1037.4427 Hours>
+                                      ARENA Simulation Results
+                            nestorandres4@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 1 of 30
+
+Project: Ensamblaje de Postes                                        Run execution date : 5/21/2025
+Analyst: nestorandres4@hotmail.com                                   Model revision date: 5/21/2025
+
+Replication ended at time      : 1037.4427 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Cortador de Agua.WaitTimePerEntity          .00000     .00000     .00000     .00000       3054    
+Cableado.VATimePerEntity                    .49986     .00288     .30715     .77598       3005    
+Cortador de Agua.TotalTimePerEntity         .33338      6.6363E-4 .30084     .36603       3054    
+Doblado.WaitTimePerEntity                   .00000     .00000     .00000     .00000       3054    
+Doblado.TotalTimePerEntity                  .13306      8.4699E-4 .10003     .16665       3054    
+Soldador.WaitTimePerEntity                  .00000     .00000     .00000     .00000       3054    
+Retrabajo.VATimePerEntity                   1.6666     (Insuf)    1.6666     1.6666         73    
+Pulidora.VATimePerEntity                    .17500     .00849      3.9780E-5 1.2834       3052    
+Doblado.VATimePerEntity                     .13306      8.4699E-4 .10003     .16665       3054    
+Soldador.TotalTimePerEntity                 .09988      5.9743E-4 .06667     .13333       3054    
+Cableado.TotalTimePerEntity                 .49986     .00288     .30715     .77598       3005    
+Cortador de Agua.VATimePerEntity            .33338      6.6363E-4 .30084     .36603       3054    
+Inspeccion.VATimePerEntity                  .33798     .01455      3.1337E-5 2.9897       3008    
+Cableado.WaitTimePerEntity                  .00000     .00000     .00000     .00000       3005    
+Inspeccion.TotalTimePerEntity               6.7498     1.4602      2.3825E-4 18.446       3008    
+TiempoSistema                               7.7932     1.4650     .82020     20.284       3005    
+Retrabajo.WaitTimePerEntity                 .00000     (Insuf)    .00000     .00000         73    
+Core.VATimePerEntity                        .06665      3.4574E-4 .05001     .08333       3055    
+Retrabajo.TotalTimePerEntity                1.6666     (Insuf)    1.6666     1.6666         73    
+Soldador.VATimePerEntity                    .09988      5.9743E-4 .06667     .13333       3054    
+Inspeccion.WaitTimePerEntity                6.4118     1.4570     .00000     16.754       3008    
+Pulidora.TotalTimePerEntity                 .17500     .00849      3.9780E-5 1.2834       3052    
+Core.TotalTimePerEntity                     .06665      3.4574E-4 .05001     .08333       3055    
+Pulidora.WaitTimePerEntity                  .00000     .00000     .00000     .00000       3052    
+Core.WaitTimePerEntity                      .00000     .00000     .00000     .00000       3055    
+Entity 1.VATime                             1.6868     .02029     1.0179     5.5907       3005    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       3005    
+Entity 1.WaitTime                           6.6153     1.4578     .00653     17.194       3005    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       3005    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       3005    
+Entity 1.TotalTime                          7.7932     1.4650     .82020     20.284       3005    
+Pulidora.Queue.WaitingTime                  .00000     .00000     .00000     .00000       3054    
+Retrabajo.Queue.WaitingTime                 .00000     (Insuf)    .00000     .00000         74    
+Cortador de Agua.Queue.WaitingTime          .00000     .00000     .00000     .00000       3055    
+Doblado.Queue.WaitingTime                   .00000     .00000     .00000     .00000       3055    
+Soldador.Queue.WaitingTime                  .00000     .00000     .00000     .00000       3054    
+Unir Base con Poste.Queue1.WaitingTime      .20894     .00925     .00000     1.3226       3052    
+Unir Base con Poste.Queue2.WaitingTime       1.6604E-4  5.4563E-5 .00000     .04468       3052    
+Cableado.Queue.WaitingTime                  .00000     .00000     .00000     .00000       3007    
+Inspeccion.Queue.WaitingTime                6.4133     1.4570     .00000     16.754       3009    
+Core.Queue.WaitingTime                      .00000     .00000     .00000     .00000       3055    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                67.151     (Corr)     .00000     148.00     148.00    
+rCortadora.NumberBusy                       .19628     .00739     .00000     4.0000     .00000    
+rRetrabajador.NumberBusy                    .11771     (Insuf)    .00000     3.0000     1.0000    
+rDobladora.NumberBusy                       .39173     .01471     .00000     5.0000     1.0000    
+rPulidora.NumberBusy                        .51516     .02819     .00000     5.0000     2.0000    
+rCableador.NumberBusy                       1.4487     .05907     .00000     7.0000     2.0000    
+rAgua.NumberBusy                            .98148     .03660     .00000     6.0000     1.0000    
+rInspector.NumberBusy                       .98039     (Insuf)    .00000     1.0000     1.0000    
+rInspector.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rInspector.Utilization                      .98039     (Insuf)    .00000     1.0000     1.0000    
+rSoldadora.NumberBusy                       .29404     .01101     .00000     4.0000     .00000    
+Pulidora.Queue.NumberInQueue                .00000     (Insuf)    .00000     .00000     .00000    
+Retrabajo.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+Cortador de Agua.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
+Doblado.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+Soldador.Queue.NumberInQueue                .00000     (Insuf)    .00000     .00000     .00000    
+Unir Base con Poste.Queue1.NumberInQueue    .61509     .03191     .00000     6.0000     2.0000    
+Unir Base con Poste.Queue2.NumberInQueue     4.8846E-4 (Insuf)    .00000     1.0000     .00000    
+Cableado.Queue.NumberInQueue                .00000     (Insuf)    .00000     .00000     .00000    
+Inspeccion.Queue.NumberInQueue              18.839     (Corr)     .00000     46.000     43.000    
+Core.Queue.NumberInQueue                    .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Retrabajo Number In                         74.000    
+Cableado Number Out                         3005.0    
+Pulidora Accum Wait Time                    .00000    
+Soldador Accum Wait Time                    .00000    
+Retrabajo Accum VA Time                     121.66    
+Cortador de Agua Number In                  3055.0    
+Cortador de Agua Number Out                 3054.0    
+Cableado Accum Wait Time                    .00000    
+Core Accum VA Time                          203.63    
+Doblado Number In                           3055.0    
+Inspeccion Number In                        3052.0    
+Inspeccion Accum VA Time                    1016.6    
+Retrabajo Accum Wait Time                   .00000    
+Cableado Accum VA Time                      1502.0    
+Pulidora Accum VA Time                      534.08    
+Inspeccion Accum Wait Time                  19286.    
+Doblado Number Out                          3054.0    
+Soldador Number In                          3054.0    
+Doblado Accum Wait Time                     .00000    
+Soldador Number Out                         3054.0    
+Soldador Accum VA Time                      305.04    
+Core Accum Wait Time                        .00000    
+Core Number In                              3055.0    
+Retrabajo Number Out                        73.000    
+Cortador de Agua Accum VA Time              1018.1    
+Cortador de Agua Accum Wait Time            .00000    
+Core Number Out                             3055.0    
+Doblado Accum VA Time                       406.35    
+Inspeccion Number Out                       3008.0    
+Pulidora Number Out                         3052.0    
+Pulidora Number In                          3054.0    
+Cableado Number In                          3007.0    
+Entity 1.NumberIn                           9163.0    
+Entity 1.NumberOut                          9015.0    
+rCortadora.NumberSeized                     3055.0    
+rRetrabajador.NumberSeized                  74.000    
+rDobladora.NumberSeized                     3055.0    
+rPulidora.NumberSeized                      3054.0    
+rCableador.NumberSeized                     3007.0    
+rAgua.NumberSeized                          3055.0    
+rInspector.NumberSeized                     3009.0    
+rInspector.ScheduledUtilization             .98039    
+rSoldadora.NumberSeized                     3054.0    
+System.NumberOut                            3005.0    
+

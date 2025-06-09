@@ -1,0 +1,17 @@
+[RESOURCES]
+rRegistradora
+rCamas
+rMedico
+[VARIABLES]
+Es tipo 1.NumberOut False
+Process 2.NumberOut
+Process 2.NumberIn
+Process 2.WaitTime
+Registro.NumberIn
+Registro.NumberOut
+Process 2.VATime
+Dispose 1.NumberOut
+Registro.WaitTime
+Registro.VATime
+LLegada de Pacientes.NumberOut
+Es tipo 1.NumberOut True
